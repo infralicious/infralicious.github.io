@@ -1,26 +1,27 @@
-# Infralicious website and TrueTime docs
+# Infralicious website
 
 Org site for Infralicious, served at https://infralicious.github.io/.
-It hosts the public documentation for TrueTime for Jira.
-
 Published with GitHub Pages (Jekyll, minima theme, no build step).
 
 Live site: https://infralicious.github.io/
 
-## Pages
+## Structure
 
-- `index.md` — Overview, features, links.
-- `user-guide.md` — Log time, approvals, teams, admin settings.
-- `migration.md` — Migrate from Tempo via CSV only.
-- `privacy.md` — Public privacy policy.
-- `terms.md` — Terms of service.
-- `support.md` — How to get help.
+- `index.md` — Generic company landing page. Products list, contact.
+- `truetime/` — All TrueTime for Jira docs.
+  - `truetime/index.md` — TrueTime home, features, links.
+  - `truetime/user-guide.md` — Log time, approvals, teams, admin settings.
+  - `truetime/migration.md` — Migrate from Tempo via CSV only.
+  - `truetime/privacy.md` — Public privacy policy.
+  - `truetime/terms.md` — Terms of service.
+  - `truetime/support.md` — How to get help.
+- Future apps get their own subdirectory, same pattern.
 
 ## How to edit docs
 
 1. Edit a Markdown file in this repo.
 2. Keep ASD-STE100 style: short sentences, active voice, one idea each.
-3. Do not promise features TrueTime does not have.
+3. Do not promise features the app does not have.
 4. Commit and push to `main`. GitHub Pages rebuilds the site.
 
 ## Note
@@ -34,4 +35,5 @@ archive until the Marketplace listing points at the new URLs.
 - [ ] Point infralicious.com DNS at GitHub Pages (A records / CNAME).
 - [ ] Add a `CNAME` file with `infralicious.com` only after DNS is set.
       Do not add CNAME early. It would break the github.io URL.
-- [ ] Update the Marketplace listing to point at the new docs URLs.
+- [ ] Update the Marketplace listing to point at the new docs URLs
+      (now under `/truetime/`).
