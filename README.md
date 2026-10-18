@@ -8,12 +8,14 @@ Live site: https://infralicious.github.io/
 ## Structure
 
 - `index.md` — Generic company landing page. Products list, contact.
+- `privacy.md` — Generic Infralicious privacy policy. Shared rules only.
+- `terms.md` — Generic Infralicious terms of service. Shared rules only.
 - `truetime/` — All TrueTime for Jira docs.
   - `truetime/index.md` — TrueTime home, features, links.
   - `truetime/user-guide.md` — Log time, approvals, teams, admin settings.
   - `truetime/migration.md` — Migrate from Tempo via CSV only.
-  - `truetime/privacy.md` — Public privacy policy.
-  - `truetime/terms.md` — Terms of service.
+  - `truetime/privacy.md` — Complete TrueTime privacy policy (self-contained).
+  - `truetime/terms.md` — Complete TrueTime terms of service (self-contained).
   - `truetime/support.md` — How to get help.
 - Future apps get their own subdirectory, same pattern.
 

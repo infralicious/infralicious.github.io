@@ -5,8 +5,10 @@ title: Privacy Policy
 
 # Privacy Policy for TrueTime for Jira
 
+This document covers TrueTime for Jira by Infralicious.
+
 **Effective date:** October 11, 2026
-**Last updated:** October 11, 2026
+**Last updated:** 2026-10-18
 
 TrueTime for Jira ("TrueTime", "we", "us") is built by Infralicious.
 Contact: ***REMOVED***
@@ -68,3 +70,6 @@ will be announced via the Atlassian Marketplace listing.
 ## Contact
 
 For privacy questions or data requests: ***REMOVED***
+
+See also the [generic Infralicious privacy policy](/privacy.html) for the shared rules.
+This page alone states the full policy for TrueTime.

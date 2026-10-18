@@ -15,3 +15,8 @@ Your data stays where it belongs.
 
 Email [***REMOVED***](mailto:***REMOVED***).
 We respond to every message.
+
+## Legal
+
+- [Privacy Policy](/privacy.html)
+- [Terms of Service](/terms.html)
