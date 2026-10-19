@@ -1,0 +1,47 @@
+---
+---
+
+@import "minima";
+
+/* Infralicious brand theme. Edit $brand to retheme the whole site. */
+$brand: #0f766e;
+$ink: #1e293b;
+$muted: #64748b;
+$line: #e2e8f0;
+
+body {
+  color: $ink;
+}
+
+a {
+  color: $brand;
+}
+
+a:hover {
+  color: darken($brand, 12%);
+}
+
+.site-header {
+  border-top: 5px solid $brand;
+  border-bottom: 1px solid $line;
+}
+
+.site-title,
+.site-title:visited {
+  color: $ink;
+  font-weight: 700;
+}
+
+.site-footer {
+  border-top: 1px solid $line;
+  color: $muted;
+}
+
+.site-footer a {
+  color: $muted;
+}
+
+pre,
+code {
+  border-radius: 4px;
+}
