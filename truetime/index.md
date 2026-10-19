@@ -1,6 +1,6 @@
 ---
 layout: page
-title: TrueTime for Jira — Docs
+title: TrueTime
 ---
 
 TrueTime is a Forge-native timesheet app for Jira.

@@ -3,3 +3,6 @@ description: "Small, honest software for teams. TrueTime for Jira: Forge-native 
 theme: minima
 url: "https://infralicious.github.io"
 baseurl: ""
+
+header_pages:
+  - truetime/index.md
