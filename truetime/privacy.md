@@ -71,5 +71,4 @@ will be announced via the Atlassian Marketplace listing.
 
 For privacy questions or data requests: ***REMOVED***
 
-See also the [generic Infralicious privacy policy](/privacy.html) for the shared rules.
 This page alone states the full policy for TrueTime.

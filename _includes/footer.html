@@ -1,0 +1,23 @@
+<footer class="site-footer h-card">
+  <div class="wrapper">
+    {%- assign url_parts = page.url | split: "/" -%}
+    {%- assign section = url_parts[1] -%}
+    {%- assign section_index = section | append: "/index.md" -%}
+    {%- assign section_page = site.pages | where: "path", section_index | first -%}
+    <nav class="footer-links" aria-label="Footer">
+    {%- if section_page -%}
+      {%- assign base = section_page.url -%}
+      <a href="{{ base | append: "user-guide.html" | relative_url }}">User Guide</a>
+      <a href="{{ base | append: "migration.html" | relative_url }}">Tempo migration</a>
+      <a href="{{ base | append: "privacy.html" | relative_url }}">Privacy</a>
+      <a href="{{ base | append: "terms.html" | relative_url }}">Terms</a>
+      <a href="{{ base | append: "support.html" | relative_url }}">Support</a>
+    {%- else -%}
+      <a href="{{ "/about.html" | relative_url }}">About</a>
+      <a href="{{ "/privacy.html" | relative_url }}">Privacy Policy</a>
+      <a href="{{ "/terms.html" | relative_url }}">Terms of Service</a>
+    {%- endif -%}
+    </nav>
+    <p class="footer-note">&copy; 2026 Infralicious &middot; <a href="mailto:***REMOVED***">***REMOVED***</a></p>
+  </div>
+</footer>

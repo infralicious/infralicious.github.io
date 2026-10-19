@@ -85,5 +85,4 @@ without regard to conflict of law principles.
 
 Questions about these terms: ***REMOVED***
 
-See also the [generic Infralicious terms of service](/terms.html) for the shared rules.
 This page alone states the full terms for TrueTime.

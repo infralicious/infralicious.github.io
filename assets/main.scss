@@ -45,3 +45,25 @@ pre,
 code {
   border-radius: 4px;
 }
+
+.breadcrumb-sep {
+  color: $muted;
+  margin: 0 0.35rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-links a {
+  color: $muted;
+}
+
+.footer-note {
+  color: $muted;
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
