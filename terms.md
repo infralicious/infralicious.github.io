@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Terms of Service
 ---
 

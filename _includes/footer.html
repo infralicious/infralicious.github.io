@@ -1,26 +1,45 @@
-<footer class="site-footer h-card">
-  <div class="wrapper">
-    {%- assign url_parts = page.url | split: "/" -%}
-    {%- assign section = url_parts[1] -%}
-    {%- assign section_index = section | append: "/index.md" -%}
-    {%- assign section_page = site.pages | where: "path", section_index | first -%}
-    <nav class="footer-links" aria-label="Company">
-      <a href="{{ "/about.html" | relative_url }}">About</a>
-      <a href="{{ "/careers.html" | relative_url }}">Careers</a>
-      <a href="{{ "/privacy.html" | relative_url }}">Privacy Policy</a>
-      <a href="{{ "/terms.html" | relative_url }}">Terms of Service</a>
-    </nav>
-    {%- if section_page -%}
-    {%- assign base = section_page.url -%}
-    <nav class="footer-links footer-links-app" aria-label="{{ section_page.title | escape }}">
-      <span class="footer-label">{{ section_page.title | escape }}</span>
-      <a href="{{ base | append: "user-guide.html" | relative_url }}">User Guide</a>
-      <a href="{{ base | append: "migration.html" | relative_url }}">Tempo migration</a>
-      <a href="{{ base | append: "privacy.html" | relative_url }}">Privacy Policy</a>
-      <a href="{{ base | append: "terms.html" | relative_url }}">Terms of Service</a>
-      <a href="{{ base | append: "support.html" | relative_url }}">Support</a>
-    </nav>
-    {%- endif -%}
-    <p class="footer-note">&copy; 2026 Infralicious &middot; <a href="mailto:***REMOVED***">***REMOVED***</a></p>
-  </div>
-</footer>
+{% assign locale = include.locale | default: site.locale %}
+{% assign url_parts = page.url | split: "/" %}
+{% assign section = url_parts[1] %}
+{% assign section_index = section | append: "/index.md" %}
+{% assign section_page = site.pages | where: "path", section_index | first %}
+{% unless site.atom_feed.hide %}
+  {% assign show_atom = true %}
+{% endunless %}
+{% if site.footer.links or show_atom %}
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[locale].follow_label }}</strong></li>
+    {% endif %}
+
+    {% if site.footer.links %}
+      {% for link in site.footer.links %}
+        {% if link.label and link.url %}
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer{% if link.rel %} {{ link.rel }}{% endif %}"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label | escape_once | strip }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% unless site.atom_feed.hide %}
+      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> {{ site.data.ui-text[locale].feed_label | default: "Feed" }}</a></li>
+    {% endunless %}
+  </ul>
+</div>
+{% endif %}
+
+{% if section_page %}
+{% assign base = section_page.url %}
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    <li><strong>{{ section_page.title | escape_once | strip }}</strong></li>
+    <li><a href="{{ base | append: "user-guide.html" | relative_url }}">User Guide</a></li>
+    <li><a href="{{ base | append: "migration.html" | relative_url }}">Tempo migration</a></li>
+    <li><a href="{{ base | append: "privacy.html" | relative_url }}">Privacy Policy</a></li>
+    <li><a href="{{ base | append: "terms.html" | relative_url }}">Terms of Service</a></li>
+    <li><a href="{{ base | append: "support.html" | relative_url }}">Support</a></li>
+  </ul>
+</div>
+{% endif %}
+
+<div class="page__footer-copyright">&copy; {% assign site_time = site.time | date: '%Y' %}{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title | escape_once | strip }}</a>. {{ site.data.ui-text[locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>

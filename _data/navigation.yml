@@ -1,0 +1,7 @@
+main:
+  - title: "TrueTime"
+    url: /truetime/
+  - title: "Docs"
+    url: /truetime/user-guide.html
+  - title: "About"
+    url: /about.html
