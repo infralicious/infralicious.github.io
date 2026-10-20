@@ -3,7 +3,6 @@ layout: splash
 title: "Infralicious"
 header:
   overlay_color: "#0f766e"
-  overlay_filter: 0.25
   actions:
     - label: "Explore TrueTime"
       url: "/truetime/"
