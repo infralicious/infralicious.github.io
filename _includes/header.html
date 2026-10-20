@@ -7,11 +7,13 @@
     {%- assign section = url_parts[1] -%}
     {%- assign section_index = section | append: "/index.md" -%}
     {%- assign section_page = site.pages | where: "path", section_index | first -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-    {%- if section_page -%}
-    <span class="breadcrumb-sep" aria-hidden="true">&gt;</span>
-    <a class="site-title" href="{{ section_page.url | relative_url }}">{{ section_page.title | escape }}</a>
-    {%- endif -%}
+    <span class="breadcrumb">
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      {%- if section_page -%}
+      <span class="breadcrumb-sep" aria-hidden="true">&gt;</span>
+      <a class="site-title" href="{{ section_page.url | relative_url }}">{{ section_page.title | escape }}</a>
+      {%- endif -%}
+    </span>
 
     {%- if page_paths -%}
       <nav class="site-nav">
