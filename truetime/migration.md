@@ -21,13 +21,17 @@ Your Tempo token is never needed. Your data stays in Atlassian.
 
 ## CSV format
 
-The header must be: `Date, Issue, Hours, Comment`.
+You can upload a Tempo export as is. The app reads the Tempo columns:
+Work Item Key, Logged Hours or Logged Seconds, Work Date, Work Description,
+and Billable Seconds.
+
+A simple format also works. The header is: `Date, Issue, Hours, Comment`.
 
 Example row: `2026-10-05, PROJ-123, 2.5, Sprint work`.
 
 ## What moves with you
 
-- Dates, issue keys, hours, and comments move into TrueTime.
+- Dates, issue keys, hours, comments, and the billable flag move into TrueTime.
 - Imported entries become native Jira worklogs.
 - Entries appear in timesheets, approvals, and reports like any other entry.
 
