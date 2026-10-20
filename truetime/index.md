@@ -25,6 +25,7 @@ TrueTime has no servers.
 
 - [User Guide](/truetime/user-guide.html) — Log time, approvals, teams, admin settings.
 - [Migrate from Tempo](/truetime/migration.html) — Move your history with a CSV export.
+- [Log time with the Jira REST API](/truetime/api.html) — Create entries from scripts and AI agents.
 - [Privacy Policy](/truetime/privacy.html) — What TrueTime stores and where.
 - [Terms of Service](/truetime/terms.html) — License, tiers, liability.
 - [Support](/truetime/support.html) — How to get help.
