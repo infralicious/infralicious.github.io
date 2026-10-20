@@ -3,7 +3,7 @@ layout: splash
 title: "Infralicious"
 header:
   overlay_color: "#0f766e"
-  overlay_filter: 0.85
+  overlay_filter: 0.25
   actions:
     - label: "Explore TrueTime"
       url: "/truetime/"
@@ -11,12 +11,6 @@ header:
       url: "/truetime/user-guide.html"
 excerpt: "Small, honest software for teams. Our apps run on the platforms you already trust. Your data stays where it belongs."
 feature_row:
-  - title: "TrueTime for Jira"
-    excerpt: "Forge-native timesheets for Jira. One-click timers, weekly timesheets, approvals, and Tempo migration. Your data never leaves Atlassian. Free for up to 10 users; $2.99 per user per month above that."
-    url: "/truetime/"
-    btn_label: "Explore TrueTime"
-    btn_class: "btn--primary"
-feature_row2:
   - title: "Forge-native"
     excerpt: "Our apps run on Atlassian infrastructure. No separate servers. No data leaving your Jira."
   - title: "Honest pricing"
@@ -25,6 +19,12 @@ feature_row2:
     excerpt: "Email a human at ***REMOVED***. We respond to every message."
 ---
 
-{% include feature_row %}
+## TrueTime for Jira
 
-{% include feature_row id="feature_row2" %}
+Forge-native timesheets for Jira. One-click timers, weekly timesheets, approvals, and Tempo migration. Your data never leaves Atlassian.
+
+**Free for up to 10 users.** $2.99 per user per month above that.
+
+[Explore TrueTime](/truetime/){: .btn .btn--primary}
+
+{% include feature_row %}
