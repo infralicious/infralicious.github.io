@@ -8,7 +8,7 @@ title: Terms of Service
 **Last updated:** 2026-10-18
 
 These terms govern your use of apps built by Infralicious ("we", "us").
-Contact: ***REMOVED***
+Contact: use the [contact form](/contact.html).
 Each app also has its own terms page.
 The app page states app-specific pricing and trial terms.
 These terms state the shared rules.
@@ -49,7 +49,7 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW:
 
 ## 6. Support
 
-Email ***REMOVED***.
+Use the [contact form](/contact.html).
 We aim to respond within 1 business day.
 Paid subscribers receive priority support.
 
@@ -70,7 +70,7 @@ These terms are governed by the laws of the State of Nebraska, USA, without rega
 
 ## Contact
 
-Questions about these terms: ***REMOVED***
+Questions about these terms? Use the [contact form](/contact.html).
 
 ## App Terms
 

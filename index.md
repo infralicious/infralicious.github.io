@@ -15,7 +15,7 @@ feature_row:
   - title: "Honest pricing"
     excerpt: "Free for small teams. One flat per-user price above that. No hidden tiers."
   - title: "Fast support"
-    excerpt: "Email a human at ***REMOVED***. We respond to every message."
+    excerpt: "Reach a human through the contact form. We respond to every message."
 ---
 
 ## TrueTime for Jira

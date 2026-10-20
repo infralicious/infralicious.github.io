@@ -5,11 +5,11 @@ title: Support
 
 ## Get help
 
-Email [***REMOVED***](mailto:***REMOVED***).
+Use the [contact form](/contact.html).
 We respond to every message. We aim to respond within 1 business day.
 Paid subscribers receive priority support.
 
-The support mailbox forwards to the founder.
+The founder reads every submission.
 
 ## What to include
 

@@ -11,7 +11,7 @@ This document covers TrueTime for Jira by Infralicious.
 **Last updated:** 2026-10-18
 
 These terms govern your use of TrueTime for Jira ("TrueTime"), built by
-Infralicious ("we", "us"). Contact: ***REMOVED***
+Infralicious ("we", "us"). Contact: use the [contact form](/contact.html).
 
 ## 1. License
 
@@ -61,7 +61,7 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW:
 
 ## 7. Support
 
-Email ***REMOVED***. We aim to respond within 1 business day.
+Use the [contact form](/contact.html). We aim to respond within 1 business day.
 Paid subscribers receive priority support.
 
 ## 8. Termination
@@ -83,6 +83,6 @@ without regard to conflict of law principles.
 
 ## Contact
 
-Questions about these terms: ***REMOVED***
+Questions about these terms? Use the [contact form](/contact.html).
 
 This page alone states the full terms for TrueTime.

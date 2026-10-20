@@ -8,7 +8,7 @@ title: Privacy Policy
 **Last updated:** 2026-10-18
 
 Infralicious ("we", "us") builds software for teams.
-Contact: ***REMOVED***
+Contact: use the [contact form](/contact.html).
 
 ## What This Policy Covers
 
@@ -65,7 +65,7 @@ Material changes will be announced via the app listing.
 
 ## Contact
 
-For privacy questions or data requests: ***REMOVED***
+For privacy questions or data requests, use the [contact form](/contact.html).
 
 ## App Policies
 

@@ -11,7 +11,7 @@ This document covers TrueTime for Jira by Infralicious.
 **Last updated:** 2026-10-18
 
 TrueTime for Jira ("TrueTime", "we", "us") is built by Infralicious.
-Contact: ***REMOVED***
+Contact: use the [contact form](/contact.html).
 
 ## What Data We Collect
 
@@ -69,6 +69,6 @@ will be announced via the Atlassian Marketplace listing.
 
 ## Contact
 
-For privacy questions or data requests: ***REMOVED***
+For privacy questions or data requests, use the [contact form](/contact.html).
 
 This page alone states the full policy for TrueTime.

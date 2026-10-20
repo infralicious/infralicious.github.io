@@ -28,5 +28,5 @@ TrueTime has no servers.
 
 ## Support
 
-Email [***REMOVED***](mailto:***REMOVED***).
+Use the [contact form](/contact.html).
 We respond to every message.

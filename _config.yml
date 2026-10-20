@@ -14,10 +14,11 @@ locale: "en"
 
 author:
   name: "Infralicious"
-  email: "***REMOVED***"
 
 footer:
   links:
+    - label: "Contact"
+      url: "/contact.html"
     - label: "About"
       url: "/about.html"
     - label: "Careers"
