@@ -3,6 +3,9 @@ layout: single
 title: Migrate from Tempo
 ---
 
+**Beta:** TrueTime is in beta. Features may change. Full release is planned for early Q4 2026.
+{: .notice--warning}
+
 Move your Tempo history into TrueTime with a CSV export.
 Migration is CSV-only. TrueTime makes no API calls to Tempo.
 Your Tempo token is never needed. Your data stays in Atlassian.

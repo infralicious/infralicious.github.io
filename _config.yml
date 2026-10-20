@@ -27,6 +27,8 @@ footer:
       url: "/privacy.html"
     - label: "Terms of Service"
       url: "/terms.html"
+    - label: "Support SLA"
+      url: "/sla.html"
 
 defaults:
   - scope:

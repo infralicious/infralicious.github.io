@@ -22,6 +22,8 @@ feature_row:
 
 Forge-native timesheets for Jira. One-click timers, weekly timesheets, approvals, and Tempo migration. Your data never leaves Atlassian.
 
+**Beta:** TrueTime is in beta. Full release is planned for early Q4 2026.
+
 **Free for up to 10 users.** $2.99 per user per month above that.
 
 [Explore TrueTime](/truetime/){: .btn .btn--primary}

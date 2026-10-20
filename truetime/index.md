@@ -3,6 +3,9 @@ layout: single
 title: TrueTime
 ---
 
+**Beta:** TrueTime is in beta. Features may change. Full release is planned for early Q4 2026.
+{: .notice--warning}
+
 TrueTime is a Forge-native timesheet app for Jira.
 Your data never leaves Atlassian.
 TrueTime has no servers.
