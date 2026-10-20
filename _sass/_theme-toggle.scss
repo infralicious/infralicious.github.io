@@ -1,0 +1,12 @@
+.theme-toggle {
+  margin-inline-start: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  border: 0;
+  background: transparent;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  color: $primary-color;
+}

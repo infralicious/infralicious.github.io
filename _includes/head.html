@@ -19,7 +19,45 @@
 
 <!-- For all browsers -->
 <link rel="icon" href="{{ "/assets/favicon.svg" | relative_url }}" type="image/svg+xml">
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link id="theme-css" rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<script>
+(function () {
+  var KEY = "infralicious-theme";
+  var LIGHT = "{{ '/assets/css/main.css' | relative_url }}";
+  var DARK = "{{ '/assets/css/dark.css' | relative_url }}";
+  function systemDark() {
+    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  }
+  function current() {
+    try { return localStorage.getItem(KEY) || "system"; } catch (e) { return "system"; }
+  }
+  function apply(mode) {
+    var dark = mode === "dark" || (mode === "system" && systemDark());
+    var link = document.getElementById("theme-css");
+    if (link) { link.href = dark ? DARK : LIGHT; }
+    document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+  }
+  window.__infraliciousTheme = {
+    get: current,
+    apply: apply,
+    cycle: function () {
+      var order = ["system", "light", "dark"];
+      var next = order[(order.indexOf(current()) + 1) % order.length];
+      try { localStorage.setItem(KEY, next); } catch (e) {}
+      apply(next);
+      return next;
+    }
+  };
+  apply(current());
+  if (window.matchMedia) {
+    try {
+      window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () {
+        if (current() === "system") { apply("system"); }
+      });
+    } catch (e) {}
+  }
+})();
+</script>
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
