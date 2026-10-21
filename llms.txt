@@ -1,24 +1,25 @@
 # Infralicious
 
 > Small, honest software for teams. TrueTime for Jira: Forge-native timesheets.
+> Links below point at raw markdown versions. HTML versions live at https://infralicious.com/ with the same paths.
 
 ## Products
 
-- [TrueTime for Jira](https://infralicious.com/truetime/): Forge-native timesheets for Jira. One-click timers, weekly timesheets, approvals, Tempo CSV import. Free for up to 10 users, $2.99 per user per month above that. Currently in beta.
+- [TrueTime for Jira](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/truetime/index.md): Forge-native timesheets for Jira. One-click timers, weekly timesheets, approvals, Tempo CSV import. Free for up to 10 users, $2.99 per user per month above that. Currently in beta.
 
 ## Documentation
 
-- [TrueTime User Guide](https://infralicious.com/truetime/user-guide.html): Log time, approvals, teams, admin settings.
-- [Migrate from Tempo](https://infralicious.com/truetime/migration.html): Move Tempo history to TrueTime with a CSV export.
-- [TrueTime API](https://infralicious.com/truetime/api.html): Create time entries with the Jira REST API.
-- [TrueTime Support](https://infralicious.com/truetime/support.html): How to get help.
+- [TrueTime User Guide](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/truetime/user-guide.md): Log time, approvals, teams, admin settings.
+- [Migrate from Tempo](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/truetime/migration.md): Move Tempo history to TrueTime with a CSV export.
+- [TrueTime API](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/truetime/api.md): Create time entries with the Jira REST API.
+- [TrueTime Support](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/truetime/support.md): How to get help.
 
 ## Company
 
-- [About](https://infralicious.com/about.html): Infralicious builds small, honest software for teams.
-- [Contact](https://infralicious.com/contact.html): Contact form. Replies within 1 business day.
-- [Support SLA](https://infralicious.com/sla.html): Support hours and response targets.
-- [Privacy Policy](https://infralicious.com/privacy.html): Company privacy policy.
-- [Terms of Service](https://infralicious.com/terms.html): Company terms of service.
-- [TrueTime Privacy Policy](https://infralicious.com/truetime/privacy.html): What TrueTime stores and where.
-- [TrueTime Terms of Service](https://infralicious.com/truetime/terms.html): TrueTime license and tiers.
+- [About](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/about.md): Infralicious builds small, honest software for teams.
+- [Contact](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/contact.md): Contact form. Replies within 1 business day.
+- [Support SLA](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/sla.md): Support hours and response targets.
+- [Privacy Policy](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/privacy.md): Company privacy policy.
+- [Terms of Service](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/terms.md): Company terms of service.
+- [TrueTime Privacy Policy](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/truetime/privacy.md): What TrueTime stores and where.
+- [TrueTime Terms of Service](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/truetime/terms.md): TrueTime license and tiers.

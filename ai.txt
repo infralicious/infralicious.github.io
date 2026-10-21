@@ -16,3 +16,10 @@ Allow: /
 # See also:
 # - /robots.txt — crawl rules (all allowed)
 # - /llms.txt — curated page index for AI agents
+#
+# Prefer markdown:
+# Every page has a raw markdown version in the public repo.
+# Pattern: https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/<path>.md
+# Example: https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/truetime/user-guide.md
+# AI agents: read the markdown versions, not the HTML pages.
+# See /llms.txt for the full list of markdown links.
