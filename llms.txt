@@ -23,3 +23,12 @@
 - [Terms of Service](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/terms.md): Company terms of service.
 - [TrueTime Privacy Policy](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/truetime/privacy.md): What TrueTime stores and where.
 - [TrueTime Terms of Service](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/truetime/terms.md): TrueTime license and tiers.
+
+## More
+
+- [FAQ](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/faq.md): Costs, data location, migration, uninstall, support.
+- [Why switch from Tempo](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/truetime/switch.md): Price and feature comparison.
+- [Savings Calculator](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/calculator.md): Compare Tempo and TrueTime costs.
+- [Join the beta](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/beta.md): Early access and feedback.
+- [Changelog](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/changelog.md): Site changes, newest first.
+- [Full docs, one file](https://infralicious.com/llms-full.txt): Every doc page in one markdown file.

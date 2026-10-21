@@ -22,10 +22,27 @@ feature_row:
 
 Forge-native timesheets for Jira. One-click timers, weekly timesheets, approvals, and Tempo migration. Your data never leaves Atlassian.
 
-**Beta:** TrueTime is in beta. Full release is planned for early Q4 2026.
+**Beta:** TrueTime is in beta. Full release is planned for early Q4 2026. [Join the beta](/beta.html).
 
 **Free for up to 10 users.** $2.99 per user per month above that.
 
 [Explore TrueTime](/truetime/){: .btn .btn--primary}
 
+[Why switch from Tempo](/truetime/switch.html) · [Savings calculator](/calculator.html) · [FAQ](/faq.html) · [Changelog](/changelog.html)
+
 {% include feature_row %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Infralicious",
+  "url": "https://infralicious.com/",
+  "description": "Small, honest software for teams.",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "url": "https://infralicious.com/contact.html"
+  }
+}
+</script>

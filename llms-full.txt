@@ -1,0 +1,849 @@
+# Infralicious — full docs
+
+> Generated 2026-10-21 from the site sources. HTML versions live at https://infralicious.com/.
+> This file goes stale when docs change. Regenerate it then.
+
+## index.md
+
+## TrueTime for Jira
+
+Forge-native timesheets for Jira. One-click timers, weekly timesheets, approvals, and Tempo migration. Your data never leaves Atlassian.
+
+**Beta:** TrueTime is in beta. Full release is planned for early Q4 2026. [Join the beta](/beta.html).
+
+**Free for up to 10 users.** $2.99 per user per month above that.
+
+[Explore TrueTime](/truetime/){: .btn .btn--primary}
+
+[Why switch from Tempo](/truetime/switch.html) · [Savings calculator](/calculator.html) · [FAQ](/faq.html) · [Changelog](/changelog.html)
+
+{% include feature_row %}
+
+## about.md
+
+Infralicious builds small, honest software for teams.
+Our apps run on the platforms you already trust.
+Your data stays where it belongs.
+
+Our first app is [TrueTime for Jira](/truetime/). It brings Forge-native timesheets to Jira. Your data never leaves Atlassian.
+
+Use the [contact form](/contact.html). We respond to every message.
+
+## contact.md
+
+Questions, feedback, or a support request? Use the form below.
+We respond to every message.
+We reply within 1 business day. See our [support SLA](/sla.html).
+Want beta access to TrueTime? Say so in your message.
+
+## sla.md
+
+This page states the support service levels for Infralicious apps.
+It covers TrueTime for Jira.
+
+## Support Channel
+
+Support runs through the [contact form](/contact.html) only.
+We do not offer phone support.
+
+## Response Times
+
+We respond to support requests within 1 business day.
+Paid subscribers receive priority support.
+Incoming triage and serious bugs take precedence over other requests.
+Bug reports and feature requests have no fixed response time.
+We review them regularly for future releases.
+
+## Support Hours
+
+Support hours are Monday to Friday.
+Hours follow Central Time business hours.
+US public holidays are excluded.
+
+## Beta Status
+
+TrueTime is in beta.
+During beta, these targets are goals, not guarantees.
+Support is best effort during beta.
+
+## Platform Availability
+
+Infralicious apps run on Atlassian Forge.
+Atlassian operates the platform and its availability.
+This page sets no uptime target for the apps.
+
+## Changes
+
+We may update this page.
+The date below states the current version.
+
+Last updated: 2026-10-20.
+
+## privacy.md
+
+# Privacy Policy for Infralicious
+
+**Last updated:** 2026-10-18
+
+Infralicious ("we", "us") builds software for teams.
+Contact: use the [contact form](/contact.html).
+
+## What This Policy Covers
+
+This policy covers all apps that Infralicious builds.
+Each app also has its own policy page.
+The app page lists the data that the app stores.
+This page states the shared rules.
+
+## What Data We Collect
+
+Our apps run on the platforms you already use.
+They store data on that platform's infrastructure.
+We operate no separate database for app data.
+
+Our apps do not collect analytics.
+Our apps use no tracking pixels.
+Our apps use no cookies for advertising.
+We do not sell your data.
+We do not share your data with third parties.
+
+## Where Data Is Stored
+
+App data stays on the host platform's infrastructure.
+For Atlassian apps, data stays in Atlassian systems.
+We send no app data to servers outside the host platform.
+
+## Data Retention
+
+Each app deletes its stored data when you uninstall it.
+The host platform controls the deletion.
+See the app policy page for app-specific retention rules.
+
+## Your Rights (GDPR/CCPA)
+
+- **Access:** You can view your data in the app.
+- **Deletion:** Uninstall the app to delete its stored data.
+- **Portability:** Each app offers export where it applies.
+- **No sale:** We do not sell, share, or disclose your data to third parties.
+
+## Third Parties
+
+We use no third-party analytics, advertising, or data processing services for app data.
+
+## Security
+
+Our apps run within the host platform's sandbox.
+We inherit the host platform's security certifications.
+We store no credentials for app data access.
+
+## Changes
+
+We will update this policy when our data practices change.
+Material changes will be announced via the app listing.
+
+## Contact
+
+For privacy questions or data requests, use the [contact form](/contact.html).
+
+## App Policies
+
+- [TrueTime for Jira privacy policy](/truetime/privacy.html)
+
+## terms.md
+
+# Terms of Service for Infralicious
+
+**Last updated:** 2026-10-18
+
+These terms govern your use of apps built by Infralicious ("we", "us").
+Contact: use the [contact form](/contact.html).
+Each app also has its own terms page.
+The app page states app-specific pricing and trial terms.
+These terms state the shared rules.
+
+## 1. License
+
+We grant you a non-exclusive, non-transferable license to use our apps within your host platform, subject to these terms and your subscription tier.
+
+## 2. Acceptable Use
+
+You agree not to:
+- Reverse-engineer or attempt to extract an app's source code
+- Use an app to violate any law or regulation
+- Interfere with the operation of an app or its host platform
+- Resell or sublicense an app without our written permission
+
+## 3. Data
+
+You retain full ownership of your data.
+We claim no rights over your data.
+On cancellation, export your data before you uninstall the app.
+After uninstall, app preferences are deleted.
+Data stored in the host platform remains.
+
+## 4. Service Availability
+
+Our apps run on their host platforms.
+We target 99.9% uptime but do not guarantee uninterrupted service.
+Host platform outages are outside our control.
+
+## 5. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW:
+- Our apps are provided "as is" without warranties of any kind
+- Our total liability is limited to the fees you paid in the prior 12 months
+- We are not liable for indirect, incidental, or consequential damages
+- We are not liable for data loss in the host platform (your admin controls backups)
+
+## 6. Support
+
+Use the [contact form](/contact.html).
+We aim to respond within 1 business day.
+Paid subscribers receive priority support.
+
+## 7. Termination
+
+You may cancel at any time by uninstalling the app or cancelling your subscription.
+We may suspend service for violation of these terms, with 30 days notice except for serious abuse.
+
+## 8. Changes
+
+We may update these terms.
+Material changes will be announced 30 days in advance via the app listing.
+Continued use after changes constitutes acceptance.
+
+## 9. Governing Law
+
+These terms are governed by the laws of the State of Nebraska, USA, without regard to conflict of law principles.
+
+## Contact
+
+Questions about these terms? Use the [contact form](/contact.html).
+
+## App Terms
+
+- [TrueTime for Jira terms of service](/truetime/terms.html)
+
+## careers.md
+
+We have no open roles right now.
+
+Want to work with us one day? Use the [contact form](/contact.html) and introduce yourself.
+
+## faq.md
+
+## What is TrueTime for Jira?
+
+TrueTime is Forge-native timesheets for Jira.
+Log time on issues. See weeks at a glance. Approve weeks with one click.
+
+## Where does my time data live?
+
+In your Jira. Worklogs are native Jira worklogs.
+Only a running timer lives in Forge Storage.
+TrueTime has no servers. We cannot see, sell, or lose your data.
+
+## How much does TrueTime cost?
+
+Free for up to 10 users. $2.99 per user per month above that.
+You pay per person who tracks time, not per Jira seat.
+Example: 200 Jira seats, 15 trackers. You pay for 15.
+
+## How do I migrate from Tempo?
+
+Export Tempo data to CSV. Import the file into TrueTime.
+Your history moves with you. Read the [migration guide](/truetime/migration.html).
+
+## Does TrueTime work on Jira Server or Data Center?
+
+No. TrueTime is Cloud only.
+
+## What happens to my data if I uninstall?
+
+Worklogs stay in Jira. Billable flags stay in Jira.
+A running timer is lost. Nothing else changes.
+
+## How fast is support?
+
+We reply within 1 business day, Monday to Friday, Central Time, except US holidays.
+Paid subscribers get priority. See our [support SLA](/sla.html).
+
+## Is TrueTime in beta?
+
+Yes. Features may change. Full release is planned for early Q4 2026.
+[Join the beta](/beta.html).
+
+## calculator.md
+
+Tempo bills per Jira seat. TrueTime bills per person who tracks time.
+Enter your numbers. See the difference.
+
+<label>Jira seats: <input id="seats" type="number" value="200" min="1"></label>
+<label>People who track time: <input id="trackers" type="number" value="15" min="0"></label>
+<button onclick="calc()">Compare</button>
+<p id="result"></p>
+
+
+
+Example: 200 seats, 15 trackers. Tempo costs $1,042 per month. TrueTime costs $45 per month. You save $997 per month, $11,966 per year.
+
+Note: price above 100 trackers is not set yet. This calculator uses $2.99 for all paid trackers.
+Tempo price comes from its public Marketplace listing, checked October 2026.
+
+## beta.md
+
+TrueTime is in beta. Full release is planned for early Q4 2026.
+
+## Who fits
+
+- Teams that track time in Jira.
+- Tempo users who want a cheaper, Forge-native option.
+- Teams that accept rough edges and want to shape the release.
+
+## How to join
+
+Use the [contact form](/contact.html). Say "beta access" in your message.
+We will send install steps after you ask.
+
+## What feedback helps
+
+- Bugs, with steps to reproduce them.
+- Migration pain, with your Tempo export shape.
+- Missing features, with your use case.
+
+Beta means features may change. Worklogs stay in your Jira either way.
+
+## changelog.md
+
+Site changes, newest first.
+
+## 2026
+
+- 2026-10-21: AI files (ai.txt, llms.txt, markdown preference), Scorecard badge, pinned actions, Renovate, MIT license.
+- 2026-10-20: Custom domain live, HTTPS enforced, SLA page, contact form, beta notices, settings as code, Feed link hidden, dark and light theme toggle.
+- 2026-10-19: Minimal Mistakes theme, new landing page.
+- 2026-10-18: Docs site launch in this repo.
+
+## truetime/index.md
+
+**Beta:** TrueTime is in beta. Features may change. Full release is planned for early Q4 2026. [Join the beta](/beta.html).
+{: .notice--warning}
+
+TrueTime is a Forge-native timesheet app for Jira.
+Your data never leaves Atlassian.
+TrueTime has no servers.
+
+## Key features
+
+- **One-click timers.** Open a Jira issue. Click Start. Click Stop. The app creates a native Jira worklog.
+- **Weekly timesheets.** See your week at a glance. Log time manually. Edit entries. Delete mistakes.
+- **Simple approvals.** Submit your week with one click. Your manager approves or rejects.
+- **Billable tracking.** Mark time as billable or non-billable. The flag stays in Jira. It survives uninstall.
+- **Excel export.** One click. Real .xlsx file. Includes hours, billable flags, project totals.
+- **Tempo import via CSV.** Export Tempo data to CSV. Upload it into TrueTime. Your history moves with you.
+- **Teams.** Create teams, manage members, and control who can approve timesheets.
+- **Free for up to 10 users.** $2.99 per user per month above that.
+
+## Docs
+
+- [User Guide](/truetime/user-guide.html) — Log time, approvals, teams, admin settings.
+- [Migrate from Tempo](/truetime/migration.html) — Move your history with a CSV export.
+- [Log time with the Jira REST API](/truetime/api.html) — Create entries from scripts and AI agents.
+- [Privacy Policy](/truetime/privacy.html) — What TrueTime stores and where.
+- [Terms of Service](/truetime/terms.html) — License, tiers, liability.
+- [Support](/truetime/support.html) — How to get help.
+- [FAQ](/faq.html) — Costs, data location, migration, uninstall, support.
+- [Why switch from Tempo](/truetime/switch.html) — Price and feature comparison.
+- [Savings Calculator](/calculator.html) — Compare Tempo and TrueTime costs.
+- [Join the beta](/beta.html) — Early access and feedback.
+
+## Support
+
+Use the [contact form](/contact.html).
+We respond to every message.
+
+## truetime/user-guide.md
+
+**Beta:** TrueTime is in beta. Features may change. Full release is planned for early Q4 2026.
+{: .notice--warning}
+
+## Log time
+
+### Option 1: Timer
+
+Use the timer on any Jira issue.
+
+1. Open a Jira issue.
+2. Click **View app actions**.
+3. Click **TrueTime**.
+4. Click **Start timer**.
+5. Add a comment if you want.
+6. Set **Billable** on or off.
+7. Click **Stop**.
+8. The app creates a native Jira worklog.
+
+### Option 2: Manual entry
+
+Enter time manually in the timesheet view.
+
+1. Open **TrueTime Timesheet**.
+2. Add an entry with these fields:
+   - **Issue key**. Example: `PROJ-123`.
+   - **Date**. Format: YYYY-MM-DD.
+   - **Hours**. Example: `2.5`.
+   - **Comment**. Optional.
+   - **Billable**. Default is on.
+3. Save the entry.
+
+### View your week
+
+1. Open the **Timesheet** tab.
+2. The tab shows all entries for the current week.
+3. Use **Prev** and **Next** to change weeks.
+4. Edit or delete an entry from the grid.
+
+### Timesheet tips
+
+- **Keyboard shortcuts**: `←` / `→` switch weeks, `N` starts a new entry.
+- **Copy last week**: one button copies last week's entries as drafts. Review them, then save all or discard.
+- **Overtime flags**: days over 8h and weeks over 40h get a badge.
+- Weekends are shaded in the grid. Hours round to the nearest 15 minutes.
+- Deleting a worklog removes it at once.
+
+## Approvals
+
+### Submit your week
+
+1. Click the **Approvals** tab.
+2. Click **Submit for approval**.
+3. Your approver sees it in their queue.
+
+### Approve or reject
+
+Approvers manage the queue in the **Approvals** tab.
+
+1. Open **Pending approvals**.
+2. Click **Approve** or **Reject**.
+3. A rejection needs a reason. The author can resubmit after a rejection.
+
+### Set up approvers
+
+1. Open the **Approvals** tab.
+2. Find the **Approvers** section.
+3. Search by name or email, then add the approver.
+4. Until at least one approver exists, approvals stay disabled.
+
+## Teams
+
+- Create a team with a name and members.
+- Team leads manage members and settings.
+- Team leads can approve team members' timesheets.
+- Only team leads or the team creator can delete a team.
+- Deleted teams go to trash for 30 days. Restore a team from the Deleted teams section. After 30 days, the team is gone for good.
+
+## Admin settings
+
+Open settings from **Atlassian Administration → Apps → TrueTime → Configure**, or from the **Settings** tab inside the Timesheet page.
+
+### Auto-timers
+
+- A timer starts when an issue moves to a selected status.
+- The timer stops and writes a worklog when the issue moves to an inactive status.
+- Pick statuses from the dropdowns. Defaults: active `In Progress`, inactive `Done, Closed, Resolved`.
+
+### Lockable periods
+
+- Lock a week so nobody can log, edit, or delete worklogs in it.
+- Pick any date with the date picker. The whole week gets locked.
+- Unlock a week at any time.
+
+### Non-ticketed work
+
+- Set a placeholder issue for work without a ticket, such as meetings or admin work.
+- Type an issue key. A preview shows the summary so you can confirm the issue.
+- Users then pick **Non-ticketed** in the log work form.
+
+### Board card display
+
+- Show total hours logged on each Jira board card.
+- Create a native **Number** custom field in Jira first (Jira Settings → Issues → Custom fields).
+- Pick the field from the dropdown, then add it to your board's Card Layout.
+- Totals sync on worklog create, update, and delete.
+- If your field is missing from the dropdown, use the **Refresh fields** button.
+
+### Custom attributes
+
+- Add extra fields on every worklog, such as activity type, location, or client code.
+- Type is a dropdown: text, number, dropdown, checkbox, date.
+- Custom attributes are stored as worklog properties. They survive uninstall.
+- Deleting an attribute asks for confirmation first.
+
+### Private labeling
+
+- Rename the app and set a brand color and logo URL.
+- Use the color picker or type a hex code. The swatch previews live.
+
+## Reports
+
+1. Click the **Report** tab.
+2. The tab shows hours grouped by project.
+3. Click **Download Excel (.xlsx)** for a spreadsheet.
+
+## FAQ
+
+**Where is my data?**
+
+Your data is in Jira. Time entries are native Jira worklogs. The app sends no data to external servers.
+
+**What happens if I uninstall TrueTime?**
+
+Your worklogs stay in Jira. You lose only running timers, approval records, and app preferences.
+
+**Why is there a 1-minute minimum?**
+
+Jira requires a minimum of 60 seconds for worklogs. The app rounds up shorter timers.
+
+**Who approves my week?**
+
+Your Jira admin configures approvers. Ask your admin if you are not sure.
+
+## truetime/migration.md
+
+**Beta:** TrueTime is in beta. Features may change. Full release is planned for early Q4 2026.
+{: .notice--warning}
+
+Move your Tempo history into TrueTime with a CSV export.
+Migration is CSV-only. TrueTime makes no API calls to Tempo.
+Your Tempo token is never needed. Your data stays in Atlassian.
+
+## Steps
+
+1. Export your worklogs from Tempo to CSV.
+2. Open **TrueTime Timesheet**.
+3. Open the **Migration** tab.
+4. Upload the CSV file.
+5. Check the import result. The app skips invalid rows and reports each skip.
+6. The app skips duplicates automatically.
+
+## CSV format
+
+You can upload a Tempo export as is. The app reads the Tempo columns:
+Work Item Key, Logged Hours or Logged Seconds, Work Date, Work Description,
+and Billable Seconds.
+
+A simple format also works. The header is: `Date, Issue, Hours, Comment`.
+
+Example row: `2026-10-05, PROJ-123, 2.5, Sprint work`.
+
+## What moves with you
+
+- Dates, issue keys, hours, comments, and the billable flag move into TrueTime.
+- Imported entries become native Jira worklogs.
+- Entries appear in timesheets, approvals, and reports like any other entry.
+
+## What to know
+
+- Migration is CSV-only. There is no Tempo API import.
+- Your Tempo token is never needed and never asked for.
+- Validate the import result before you uninstall Tempo.
+- Keep your Tempo CSV file until you confirm the import looks right.
+
+## truetime/api.md
+
+**Beta:** TrueTime is in beta. Features may change. Full release is planned for early Q4 2026.
+{: .notice--warning}
+
+TrueTime entries are native Jira worklogs.
+You can create them with the Jira REST API.
+Scripts and AI agents can use the same calls.
+TrueTime has no public API of its own today.
+
+## What you need
+
+- Your Jira site URL, for example `https://your-site.atlassian.net`.
+- An Atlassian API token for your account.
+  Create one at id.atlassian.com under Security, then API tokens.
+- An issue key to log time on.
+
+Keep the token secret. The token acts with your full account rights.
+
+## Create an entry
+
+```bash
+curl -s -X POST \
+  -u "you@example.com:YOUR_API_TOKEN" \
+  -H "Content-Type: application/json" \
+  "https://your-site.atlassian.net/rest/api/3/issue/MP-15/worklog" \
+  -d '{
+    "timeSpentSeconds": 28800,
+    "started": "2026-10-12T09:00:00.000+0000",
+    "comment": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        { "type": "paragraph", "content": [
+          { "type": "text", "text": "Design review" } ] }
+      ]
+    }
+  }'
+```
+
+The call returns HTTP 201 and the new worklog ID.
+`started` sets the day and the start time, in your account timezone.
+
+Read, update, and delete use the same base path:
+
+- Read: `GET /rest/api/3/issue/{key}/worklog`
+- Update: `PUT /rest/api/3/issue/{key}/worklog/{worklogId}`
+- Delete: `DELETE /rest/api/3/issue/{key}/worklog/{worklogId}`
+
+## What this path skips
+
+The app checks each entry at write time. The Jira API path skips these checks:
+
+1. **Future dates.** The app rejects an entry dated in the future.
+2. **24 hour cap.** The app rejects an entry over 24 hours.
+3. **Locked periods.** The app refuses writes into a locked week.
+4. **Submitted weeks.** The app refuses writes into a submitted or approved week. An API write lands anyway and then disagrees with the submitted counts. Do not write into a submitted week.
+5. **Overlap warnings.** The app warns when two entries overlap in time.
+6. **Comment cleanup.** The app trims and sanitizes comment text.
+7. **Delete audit.** The app records a snapshot of a deleted entry. An API delete leaves no snapshot.
+
+Jira still applies its own rules. You need worklog permission on the issue.
+
+## Billable and other flags
+
+The app stores flags as worklog properties.
+An entry with no properties reads as non-billable in the app.
+Set the billable flag with a second call:
+
+```bash
+curl -s -X PUT \
+  -u "you@example.com:YOUR_API_TOKEN" \
+  -H "Content-Type: application/json" \
+  "https://your-site.atlassian.net/rest/api/3/issue/MP-15/worklog/10153/properties/truetime-billable" \
+  -d '{ "billable": true }'
+```
+
+Other keys: `truetime-capex-opex` with body `{ "type": "capex" }`, and `truetime-real-started` with body `{ "realStart": true }` when `started` is the true start time.
+
+## What the API cannot do
+
+Week submission lives in the app, not in Jira.
+No API call can submit, approve, or withdraw a week.
+Use the Team tab in the TrueTime page for those steps.
+
+## truetime/support.md
+
+**Beta:** TrueTime is in beta. Features may change. Full release is planned for early Q4 2026.
+{: .notice--warning}
+
+## Get help
+
+Use the [contact form](/contact.html).
+We respond to every message. We aim to respond within 1 business day.
+Paid subscribers receive priority support.
+
+The founder reads every submission.
+
+## What to include
+
+Include these details so we can help fast:
+
+- Your Jira site URL, such as `your-company.atlassian.net`.
+- The steps you took before the problem appeared.
+- What you expected to happen.
+- What happened instead.
+- Screenshots, if the problem is visual.
+- The app version, if you know it.
+
+## Bug reports
+
+Found a bug? Tell us what broke and how to reproduce it.
+We fix bugs fast. Your report shapes the roadmap.
+
+## Feature requests
+
+Need a feature? Tell us what you want and why.
+Your feedback shapes the roadmap.
+
+## truetime/privacy.md
+
+# Privacy Policy for TrueTime for Jira
+
+This document covers TrueTime for Jira by Infralicious.
+
+**Effective date:** October 11, 2026
+**Last updated:** 2026-10-18
+
+TrueTime for Jira ("TrueTime", "we", "us") is built by Infralicious.
+Contact: use the [contact form](/contact.html).
+
+## What Data We Collect
+
+**Time tracking data stays in Jira.** When you log time with TrueTime,
+we create native Jira worklogs. Your time entries, comments, and issue
+associations live in your Jira instance, not on our servers. If you
+uninstall TrueTime, every hour you ever logged stays in Jira.
+
+**What TrueTime stores** (in Atlassian Forge Storage, on Atlassian infrastructure):
+- Running timer state (issue key, start time) - so timers survive tab close
+- App preferences (week start day, branding, auto-timer config, approver lists)
+- Team definitions and memberships
+- Approval records (submitted weeks, decisions)
+- Custom attribute definitions
+- Cached reference data (temporary)
+
+**What TrueTime does NOT collect:**
+- No analytics, no tracking pixels, no cookies for advertising
+- No personal data beyond what Jira already provides (display name, email for approver lists)
+- No data is sent to any server outside Atlassian infrastructure
+
+## Where Data Is Stored
+
+All data is stored on Atlassian infrastructure via Forge Storage and Forge KVS.
+No TrueTime data leaves Atlassian's systems. We operate no separate database.
+
+## Data Retention
+
+- Timer state: deleted when the timer stops or after 24 hours of inactivity
+- Preferences: retained until you change them or uninstall the app
+- On uninstall: all Forge Storage data is deleted by Atlassian automatically
+
+## Your Rights (GDPR/CCPA)
+
+- **Access:** All your data is visible in the app's settings and in Jira
+- **Deletion:** Uninstall the app to delete all stored preferences. Delete Jira worklogs directly in Jira.
+- **Portability:** Export your time data as CSV/Excel from the Reports tab at any time
+- **No sale:** We do not sell, share, or disclose your data to third parties
+
+## Third Parties
+
+TrueTime integrates only with your Jira instance via Atlassian's Forge platform.
+We use no third-party analytics, advertising, or data processing services.
+
+## Security
+
+TrueTime runs entirely within Atlassian's Forge sandbox. We inherit Atlassian's
+security certifications (SOC 2, ISO 27001). All API calls use Atlassian's
+authenticated Forge bridge - no credentials are stored by TrueTime.
+
+## Changes
+
+We will update this policy when our data practices change. Material changes
+will be announced via the Atlassian Marketplace listing.
+
+## Contact
+
+For privacy questions or data requests, use the [contact form](/contact.html).
+
+This page alone states the full policy for TrueTime.
+
+## truetime/terms.md
+
+# Terms of Service for TrueTime for Jira
+
+This document covers TrueTime for Jira by Infralicious.
+
+**Effective date:** October 11, 2026
+**Last updated:** 2026-10-18
+
+These terms govern your use of TrueTime for Jira ("TrueTime"), built by
+Infralicious ("we", "us"). Contact: use the [contact form](/contact.html).
+
+## 1. License
+
+We grant you a non-exclusive, non-transferable license to use TrueTime
+within your Atlassian Jira instance, subject to these terms and your
+subscription tier.
+
+## 2. Subscription Tiers
+
+**Free tier:** Up to 10 users, full features, no time limit.
+
+**Paid tier:** ~$2.99 per user per month (11-100 users).
+Billed via Atlassian Marketplace.
+
+**Trial:** 30-day free trial of paid features. No credit card required.
+After 30 days, you revert to the free tier unless you subscribe.
+
+## 3. Acceptable Use
+
+You agree not to:
+- Reverse-engineer or attempt to extract TrueTime's source code
+- Use TrueTime to violate any law or regulation
+- Interfere with the operation of TrueTime or Atlassian's platform
+- Resell or sublicense TrueTime without our written permission
+
+## 4. Data
+
+Your time tracking data is stored as native Jira worklogs in your Jira
+instance. You retain full ownership. We claim no rights over your data.
+
+On cancellation: export your data via CSV/Excel before uninstalling.
+After uninstall, app preferences are deleted. Jira worklogs remain.
+
+## 5. Service Availability
+
+TrueTime runs on Atlassian's Forge platform. We target 99.9% uptime but
+do not guarantee uninterrupted service. Atlassian platform outages are
+outside our control.
+
+## 6. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW:
+- TrueTime is provided "as is" without warranties of any kind
+- Our total liability is limited to the fees you paid in the prior 12 months
+- We are not liable for indirect, incidental, or consequential damages
+- We are not liable for data loss in Jira (your Jira admin controls backups)
+
+## 7. Support
+
+Use the [contact form](/contact.html). We aim to respond within 1 business day.
+Paid subscribers receive priority support.
+
+## 8. Termination
+
+You may cancel at any time by uninstalling the app or cancelling your
+Marketplace subscription. We may suspend service for violation of these
+terms, with 30 days notice except for serious abuse.
+
+## 9. Changes
+
+We may update these terms. Material changes will be announced 30 days
+in advance via the Marketplace listing. Continued use after changes
+constitutes acceptance.
+
+## 10. Governing Law
+
+These terms are governed by the laws of the State of Nebraska, USA,
+without regard to conflict of law principles.
+
+## Contact
+
+Questions about these terms? Use the [contact form](/contact.html).
+
+This page alone states the full terms for TrueTime.
+
+## truetime/switch.md
+
+Tempo is the big timesheet app for Jira. TrueTime is the Forge-native alternative.
+This page compares the two on facts that matter to buyers.
+
+| Topic | TrueTime | Tempo |
+|---|---|---|
+| Monthly price | $2.99 per time-tracker, free to 10 users | $5.21 per Jira seat |
+| Billing base | People who track time | Every Jira seat |
+| Data location | Atlassian only (Forge) | Vendor servers |
+| Platform | Jira Cloud only | Jira Cloud and Data Center |
+| Support first response | Within 1 business day | Within 1 business day |
+| Team delete | 30-day trash with restore | Archive, no restore |
+| Approvals | Simple submit, approve, reject | Full approval workflows |
+| Migration | Import Tempo CSV in minutes | Export CSV any time |
+
+Example: 200 Jira seats, 15 trackers. Tempo costs $1,042 per month. TrueTime costs $45 per month.
+
+Tempo prices and SLA come from its public Marketplace listing and support pages, checked October 2026.
+Tempo wins on platform range and approval depth. TrueTime wins on price, billing base, and data location.
+
+[Try TrueTime in beta](/beta.html). Read the [migration guide](/truetime/migration.html).

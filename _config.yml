@@ -16,6 +16,7 @@ include:
   - .well-known
 
 breadcrumbs: true
+search: true
 atom_feed:
   hide: true
 locale: "en"
@@ -37,6 +38,8 @@ footer:
       url: "/terms.html"
     - label: "Support SLA"
       url: "/sla.html"
+    - label: "Changelog"
+      url: "/changelog.html"
 
 defaults:
   - scope:
