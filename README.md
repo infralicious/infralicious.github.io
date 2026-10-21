@@ -2,44 +2,23 @@
 
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/infralicious/infralicious.github.io/badge)](https://securityscorecards.dev/viewer/?uri=github.com/infralicious/infralicious.github.io)
 
-Org site for Infralicious, served at https://infralicious.com/.
-Published with GitHub Pages (Jekyll, Minimal Mistakes theme).
+Public site for Infralicious, served at https://infralicious.com/.
+Built with Jekyll and the Minimal Mistakes theme, hosted on GitHub Pages.
+TrueTime docs live under `/truetime/`.
 
-Live site: https://infralicious.com/
+Agent instructions live in [AGENTS.md](AGENTS.md).
+
+## Local build
+
+```sh
+bundle install
+bundle exec jekyll serve
+```
+
+## Checks
+
+- Link check runs on every push (htmlproofer).
+- Scorecard runs on push and weekly.
+- Renovate owns dependency updates.
 
 License: MIT. See [LICENSE](LICENSE).
-
-## Structure
-
-- `index.md` — Generic company landing page. Products list, contact.
-- `privacy.md` — Generic Infralicious privacy policy. Shared rules only.
-- `terms.md` — Generic Infralicious terms of service. Shared rules only.
-- `truetime/` — All TrueTime for Jira docs.
-  - `truetime/index.md` — TrueTime home, features, links.
-  - `truetime/user-guide.md` — Log time, approvals, teams, admin settings.
-  - `truetime/migration.md` — Migrate from Tempo via CSV only.
-  - `truetime/privacy.md` — Complete TrueTime privacy policy (self-contained).
-  - `truetime/terms.md` — Complete TrueTime terms of service (self-contained).
-  - `truetime/support.md` — How to get help.
-- Future apps get their own subdirectory, same pattern.
-
-## How to edit docs
-
-1. Edit a Markdown file in this repo.
-2. Keep ASD-STE100 style: short sentences, active voice, one idea each.
-3. Do not promise features the app does not have.
-4. Commit and push to `main`. GitHub Pages rebuilds the site.
-
-## Note
-
-The old repo `infralicious/docs` (https://infralicious.github.io/docs/)
-is superseded by this repo. Do not delete it yet. It stays as an
-archive until the Marketplace listing points at the new URLs.
-
-## TODO
-
-- [ ] Point infralicious.com DNS at GitHub Pages (A records / CNAME).
-- [ ] Add a `CNAME` file with `infralicious.com` only after DNS is set.
-      Do not add CNAME early. It would break the github.io URL.
-- [ ] Update the Marketplace listing to point at the new docs URLs
-      (now under `/truetime/`).
