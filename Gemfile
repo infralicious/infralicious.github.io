@@ -1,10 +1,7 @@
-# Local build and link-check deps. GitHub Pages ignores this file:
-# the Pages build uses its own gem set. Keep versions close to Pages.
+# Local build and link-check deps. This mirrors the GitHub Pages build
+# environment exactly, so the CI build matches what Pages ships.
+# Pages itself ignores this file and uses its own gem set.
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.10"
-gem "kramdown-parser-gfm"
-gem "jekyll-remote-theme"
-gem "jekyll-include-cache"
-gem "jekyll-sitemap"
+gem "github-pages", group: :jekyll_plugins
 gem "html-proofer"
