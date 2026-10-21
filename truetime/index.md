@@ -2,21 +2,31 @@
 layout: single
 title: TrueTime
 feature_row:
-  - image_path: /assets/images/truetime-timesheet.png
+  - image_path: /assets/images/e2e-timesheet-grid.png
     alt: "TrueTime weekly timesheet grid"
     title: "Weekly timesheet"
     excerpt: "Week grid, day totals, manual entry."
-    url: /assets/images/truetime-timesheet.png
-  - image_path: /assets/images/truetime-approvals.png
-    alt: "TrueTime approvals and teams view"
-    title: "Approvals and teams"
-    excerpt: "Submit a week, manage teams."
-    url: /assets/images/truetime-approvals.png
-  - image_path: /assets/images/truetime-issue-panel.png
+    url: /assets/images/e2e-timesheet-grid.png
+  - image_path: /assets/images/e2e-reports.png
+    alt: "TrueTime weekly report view"
+    title: "Reports"
+    excerpt: "Weekly totals by project, issue, or day."
+    url: /assets/images/e2e-reports.png
+  - image_path: /assets/images/e2e-team-approvals.png
+    alt: "TrueTime approvals view"
+    title: "Approvals"
+    excerpt: "Submit a week for approval."
+    url: /assets/images/e2e-team-approvals.png
+  - image_path: /assets/images/e2e-settings.png
+    alt: "TrueTime settings view"
+    title: "Admin settings"
+    excerpt: "About the app, admin settings, feedback."
+    url: /assets/images/e2e-settings.png
+  - image_path: /assets/images/e2e-issue-panel-timer.png
     alt: "TrueTime timer panel on a Jira issue"
     title: "Issue timer"
     excerpt: "Start timer, log time manually."
-    url: /assets/images/truetime-issue-panel.png
+    url: /assets/images/e2e-issue-panel-timer.png
 ---
 
 **Beta:** TrueTime is in beta. Features may change. Full release is planned for early Q4 2026. [Join the beta](/beta.html).
@@ -39,7 +49,7 @@ TrueTime has no servers.
 
 ## Screenshots
 
-Real product views from the production Jira site. Click an image to enlarge it.
+Product views from our test site, captured by the E2E suite. Click an image to enlarge it.
 
 {% include feature_row %}
 
