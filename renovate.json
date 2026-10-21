@@ -1,0 +1,1 @@
+{"$schema":"https://docs.renovatebot.com/renovate-schema.json","extends":["config:best-practices"],"labels":["dependencies"],"packageRules":[{"groupName":"GitHub Actions updates","matchManagers":["github-actions"]}],"pinDigests":true,"schedule":["before 3am on Monday"]}

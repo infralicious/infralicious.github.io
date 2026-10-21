@@ -7,6 +7,8 @@ Published with GitHub Pages (Jekyll, Minimal Mistakes theme).
 
 Live site: https://infralicious.com/
 
+License: MIT. See [LICENSE](LICENSE).
+
 ## Structure
 
 - `index.md` — Generic company landing page. Products list, contact.
