@@ -1,6 +1,6 @@
 title: "Infralicious"
 description: "Small, honest software for teams. TrueTime for Jira: Forge-native timesheets."
-url: "https://infralicious.github.io"
+url: "https://infralicious.com"
 baseurl: ""
 
 remote_theme: "mmistakes/minimal-mistakes@4.28.1"
@@ -8,6 +8,12 @@ minimal_mistakes_skin: "default"
 
 plugins:
   - jekyll-include-cache
+  - jekyll-sitemap
+
+# Jekyll skips dot-directories by default. Include .well-known
+# so the security.txt file below ships to the live site.
+include:
+  - .well-known
 
 breadcrumbs: true
 atom_feed:

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: About
+toc: false
 ---
 
 Infralicious builds small, honest software for teams.

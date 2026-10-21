@@ -1,0 +1,7 @@
+/* TEAM */
+  Infralicious — Small, honest software for teams.
+  Site: https://infralicious.com/
+  Contact: https://infralicious.com/contact.html
+
+/* SITE */
+  Built with Jekyll and Minimal Mistakes, hosted on GitHub Pages.

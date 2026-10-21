@@ -1,0 +1,4 @@
+# Infralicious security contact
+Contact: https://infralicious.com/contact.html
+Expires: 2027-10-20T00:00:00Z
+Preferred-Languages: en
