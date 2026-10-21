@@ -1,9 +1,11 @@
 # Infralicious website
 
-Org site for Infralicious, served at https://infralicious.github.io/.
-Published with GitHub Pages (Jekyll, minima theme, no build step).
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/infralicious/infralicious.github.io/badge)](https://securityscorecards.dev/viewer/?uri=github.com/infralicious/infralicious.github.io)
 
-Live site: https://infralicious.github.io/
+Org site for Infralicious, served at https://infralicious.com/.
+Published with GitHub Pages (Jekyll, Minimal Mistakes theme).
+
+Live site: https://infralicious.com/
 
 ## Structure
 
