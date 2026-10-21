@@ -1,6 +1,22 @@
 ---
 layout: single
 title: TrueTime
+feature_row:
+  - image_path: /assets/images/truetime-timesheet.png
+    alt: "TrueTime weekly timesheet grid"
+    title: "Weekly timesheet"
+    excerpt: "Week grid, day totals, manual entry."
+    url: /assets/images/truetime-timesheet.png
+  - image_path: /assets/images/truetime-approvals.png
+    alt: "TrueTime approvals and teams view"
+    title: "Approvals and teams"
+    excerpt: "Submit a week, manage teams."
+    url: /assets/images/truetime-approvals.png
+  - image_path: /assets/images/truetime-issue-panel.png
+    alt: "TrueTime timer panel on a Jira issue"
+    title: "Issue timer"
+    excerpt: "Start timer, log time manually."
+    url: /assets/images/truetime-issue-panel.png
 ---
 
 **Beta:** TrueTime is in beta. Features may change. Full release is planned for early Q4 2026. [Join the beta](/beta.html).
@@ -20,6 +36,12 @@ TrueTime has no servers.
 - **Tempo import via CSV.** Export Tempo data to CSV. Upload it into TrueTime. Your history moves with you.
 - **Teams.** Create teams, manage members, and control who can approve timesheets.
 - **Free for up to 10 users.** $2.99 per user per month above that.
+
+## Screenshots
+
+Real product views from the production Jira site. Click an image to enlarge it.
+
+{% include feature_row %}
 
 ## Docs
 

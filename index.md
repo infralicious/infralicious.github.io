@@ -28,7 +28,7 @@ Forge-native timesheets for Jira. One-click timers, weekly timesheets, approvals
 
 [Explore TrueTime](/truetime/){: .btn .btn--primary}
 
-[Why switch from Tempo](/truetime/switch.html) · [Savings calculator](/calculator.html) · [FAQ](/faq.html) · [Changelog](/changelog.html)
+[Why switch from Tempo](/truetime/switch.html) · [Savings calculator](/calculator.html) · [FAQ](/faq.html) · [Changelog](/changelog.html) · [Screenshots](/truetime/#screenshots)
 
 {% include feature_row %}
 
