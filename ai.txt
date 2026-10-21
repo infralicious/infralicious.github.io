@@ -1,0 +1,18 @@
+# ai.txt — AI access policy for https://infralicious.com
+# AI crawlers, search engines, and assistants may use this site.
+
+User-Agent: *
+Allow: /
+
+# Allowed purposes:
+# - Crawl and index public pages.
+# - Summarize pages and answer questions from them, with a link
+#   to the source page.
+# - Train AI models on public pages.
+#
+# No login, paywall, or private content exists on this site.
+# Everything public here is fair game for AI agents.
+#
+# See also:
+# - /robots.txt — crawl rules (all allowed)
+# - /llms.txt — curated page index for AI agents

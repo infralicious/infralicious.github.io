@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
+# AI agents: see /ai.txt for the AI access policy
+# and /llms.txt for a curated page index.
+
 Sitemap: https://infralicious.com/sitemap.xml
