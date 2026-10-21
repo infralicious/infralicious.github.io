@@ -2,7 +2,7 @@
 # the Pages build uses its own gem set. Keep versions close to Pages.
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.10"
+gem "jekyll", "~> 4.4"
 gem "jekyll-remote-theme"
 gem "jekyll-include-cache"
 gem "jekyll-sitemap"
