@@ -3,7 +3,7 @@ layout: single
 title: Log time with the Jira REST API
 ---
 
-**Beta:** TrueTime is in beta. Features may change. Full release is planned for early Q4 2026.
+**Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026.
 {: .notice--warning}
 
 TrueTime entries are native Jira worklogs.

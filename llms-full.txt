@@ -1,6 +1,6 @@
 # Infralicious — full docs
 
-> Generated 2026-10-21 from the site sources. HTML versions live at https://infralicious.com/.
+> Generated 2026-10-24 from the site sources. HTML versions live at https://infralicious.com/.
 > This file goes stale when docs change. Regenerate it then.
 
 ## index.md
@@ -9,13 +9,13 @@
 
 Forge-native timesheets for Jira. One-click timers, weekly timesheets, approvals, and Tempo migration. Your data never leaves Atlassian.
 
-**Beta:** TrueTime is in beta. Full release is planned for early Q4 2026. [Join the beta](/beta.html).
+**Beta:** TrueTime is in beta. Full release is planned for Q4 2026. [Join the beta](/beta.html).
 
-**Free for up to 10 users.** $2.99 per user per month above that.
+**Free for up to 10 users.** $2.99 per user per month above that. You pay per person who tracks time, not per Jira seat.
 
 [Explore TrueTime](/truetime/){: .btn .btn--primary}
 
-[Why switch from Tempo](/truetime/switch.html) · [Savings calculator](/calculator.html) · [FAQ](/faq.html) · [Changelog](/changelog.html)
+[Why switch from Tempo](/truetime/switch.html) · [Savings calculator](/calculator.html) · [FAQ](/faq.html) · [Changelog](/changelog.html) · [Screenshots](/truetime/#screenshots)
 
 {% include feature_row %}
 
@@ -129,6 +129,8 @@ See the app policy page for app-specific retention rules.
 ## Third Parties
 
 We use no third-party analytics, advertising, or data processing services for app data.
+
+Messages sent through the contact form pass through Google Forms before they reach us.
 
 ## Security
 
@@ -270,7 +272,7 @@ Paid subscribers get priority. See our [support SLA](/sla.html).
 
 ## Is TrueTime in beta?
 
-Yes. Features may change. Full release is planned for early Q4 2026.
+Yes. Features may change. Full release is planned for Q4 2026.
 [Join the beta](/beta.html).
 
 ## calculator.md
@@ -292,7 +294,7 @@ Tempo price comes from its public Marketplace listing, checked October 2026.
 
 ## beta.md
 
-TrueTime is in beta. Full release is planned for early Q4 2026.
+TrueTime is in beta. Full release is planned for Q4 2026.
 
 ## Who fits
 
@@ -326,7 +328,7 @@ Site changes, newest first.
 
 ## truetime/index.md
 
-**Beta:** TrueTime is in beta. Features may change. Full release is planned for early Q4 2026. [Join the beta](/beta.html).
+**Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026. [Join the beta](/beta.html).
 {: .notice--warning}
 
 TrueTime is a Forge-native timesheet app for Jira.
@@ -343,6 +345,12 @@ TrueTime has no servers.
 - **Tempo import via CSV.** Export Tempo data to CSV. Upload it into TrueTime. Your history moves with you.
 - **Teams.** Create teams, manage members, and control who can approve timesheets.
 - **Free for up to 10 users.** $2.99 per user per month above that.
+
+## Screenshots
+
+Product views from our test site, captured by the E2E suite. Click an image to enlarge it.
+
+{% include feature_row %}
 
 ## Docs
 
@@ -364,7 +372,7 @@ We respond to every message.
 
 ## truetime/user-guide.md
 
-**Beta:** TrueTime is in beta. Features may change. Full release is planned for early Q4 2026.
+**Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026.
 {: .notice--warning}
 
 ## Log time
@@ -509,7 +517,7 @@ Your Jira admin configures approvers. Ask your admin if you are not sure.
 
 ## truetime/migration.md
 
-**Beta:** TrueTime is in beta. Features may change. Full release is planned for early Q4 2026.
+**Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026.
 {: .notice--warning}
 
 Move your Tempo history into TrueTime with a CSV export.
@@ -550,7 +558,7 @@ Example row: `2026-10-05, PROJ-123, 2.5, Sprint work`.
 
 ## truetime/api.md
 
-**Beta:** TrueTime is in beta. Features may change. Full release is planned for early Q4 2026.
+**Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026.
 {: .notice--warning}
 
 TrueTime entries are native Jira worklogs.
@@ -635,7 +643,7 @@ Use the Team tab in the TrueTime page for those steps.
 
 ## truetime/support.md
 
-**Beta:** TrueTime is in beta. Features may change. Full release is planned for early Q4 2026.
+**Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026.
 {: .notice--warning}
 
 ## Get help
@@ -736,6 +744,8 @@ will be announced via the Atlassian Marketplace listing.
 ## Contact
 
 For privacy questions or data requests, use the [contact form](/contact.html).
+
+Messages sent through the contact form pass through Google Forms before they reach us.
 
 This page alone states the full policy for TrueTime.
 

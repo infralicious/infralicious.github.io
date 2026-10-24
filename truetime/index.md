@@ -29,7 +29,7 @@ feature_row:
     url: /assets/images/e2e-issue-panel-timer.png
 ---
 
-**Beta:** TrueTime is in beta. Features may change. Full release is planned for early Q4 2026. [Join the beta](/beta.html).
+**Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026. [Join the beta](/beta.html).
 {: .notice--warning}
 
 TrueTime is a Forge-native timesheet app for Jira.

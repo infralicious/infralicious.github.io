@@ -52,6 +52,8 @@ See the app policy page for app-specific retention rules.
 
 We use no third-party analytics, advertising, or data processing services for app data.
 
+Messages sent through the contact form pass through Google Forms before they reach us.
+
 ## Security
 
 Our apps run within the host platform's sandbox.

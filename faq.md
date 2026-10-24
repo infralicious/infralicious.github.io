@@ -41,7 +41,7 @@ Paid subscribers get priority. See our [support SLA](/sla.html).
 
 ## Is TrueTime in beta?
 
-Yes. Features may change. Full release is planned for early Q4 2026.
+Yes. Features may change. Full release is planned for Q4 2026.
 [Join the beta](/beta.html).
 
 <script type="application/ld+json">
@@ -56,7 +56,7 @@ Yes. Features may change. Full release is planned for early Q4 2026.
     {"@type": "Question", "name": "Does TrueTime work on Jira Server or Data Center?", "acceptedAnswer": {"@type": "Answer", "text": "No. TrueTime is Cloud only."}},
     {"@type": "Question", "name": "What happens to my data if I uninstall?", "acceptedAnswer": {"@type": "Answer", "text": "Worklogs stay in Jira. Billable flags stay in Jira. A running timer is lost. Nothing else changes."}},
     {"@type": "Question", "name": "How fast is support?", "acceptedAnswer": {"@type": "Answer", "text": "We reply within 1 business day, Monday to Friday, Central Time, except US holidays."}},
-    {"@type": "Question", "name": "Is TrueTime in beta?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Features may change. Full release is planned for early Q4 2026."}}
+    {"@type": "Question", "name": "Is TrueTime in beta?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Features may change. Full release is planned for Q4 2026."}}
   ]
 }
 </script>

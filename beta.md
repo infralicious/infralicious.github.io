@@ -4,7 +4,7 @@ title: Join the beta
 toc: false
 ---
 
-TrueTime is in beta. Full release is planned for early Q4 2026.
+TrueTime is in beta. Full release is planned for Q4 2026.
 
 ## Who fits
 

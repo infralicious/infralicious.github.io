@@ -71,4 +71,6 @@ will be announced via the Atlassian Marketplace listing.
 
 For privacy questions or data requests, use the [contact form](/contact.html).
 
+Messages sent through the contact form pass through Google Forms before they reach us.
+
 This page alone states the full policy for TrueTime.
