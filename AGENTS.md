@@ -55,5 +55,5 @@ Claude Code reads these through CLAUDE.md (`@AGENTS.md`).
 
 ## Do not touch
 
-- Do not touch the old `infralicious/docs` repo from here. Its delete-or-unpublish decision is still open.
+- The old `infralicious/docs` repo is private now. Leave it alone.
 - Do not add a public phone number, address, or email to the site.
