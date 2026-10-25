@@ -1,32 +1,6 @@
 ---
 layout: single
 title: TrueTime
-feature_row:
-  - image_path: /assets/images/e2e-timesheet-grid.png
-    alt: "TrueTime weekly timesheet grid"
-    title: "Weekly timesheet"
-    excerpt: "Week grid, day totals, manual entry."
-    url: /assets/images/e2e-timesheet-grid.png
-  - image_path: /assets/images/e2e-reports.png
-    alt: "TrueTime weekly report view"
-    title: "Reports"
-    excerpt: "Weekly totals by project, issue, or day."
-    url: /assets/images/e2e-reports.png
-  - image_path: /assets/images/e2e-team-approvals.png
-    alt: "TrueTime approvals view"
-    title: "Approvals"
-    excerpt: "Submit a week for approval."
-    url: /assets/images/e2e-team-approvals.png
-  - image_path: /assets/images/e2e-settings.png
-    alt: "TrueTime settings view"
-    title: "Admin settings"
-    excerpt: "About the app, admin settings, feedback."
-    url: /assets/images/e2e-settings.png
-  - image_path: /assets/images/e2e-issue-panel-timer.png
-    alt: "TrueTime timer panel on a Jira issue"
-    title: "Issue timer"
-    excerpt: "Start timer, log time manually."
-    url: /assets/images/e2e-issue-panel-timer.png
 ---
 
 **Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026. [Join the beta](/beta.html).
@@ -51,7 +25,56 @@ TrueTime has no servers.
 
 Product views from our test site, captured by the E2E suite. Click an image to enlarge it.
 
-{% include feature_row %}
+<style>
+.tt-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1em; }
+.tt-gallery figure { margin: 0; }
+.tt-gallery img { width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; }
+.tt-gallery figcaption { font-size: 0.85em; margin-top: 0.25em; }
+</style>
+
+<div class="tt-gallery" id="tt-gallery">
+  <figure>
+    <a href="/assets/images/e2e-timesheet-grid.png" data-pswp-width="1280" data-pswp-height="1000">
+      <img src="/assets/images/e2e-timesheet-grid.png" alt="TrueTime weekly timesheet grid">
+    </a>
+    <figcaption><strong>Weekly timesheet.</strong> Week grid, day totals, manual entry.</figcaption>
+  </figure>
+  <figure>
+    <a href="/assets/images/e2e-reports.png" data-pswp-width="1280" data-pswp-height="1000">
+      <img src="/assets/images/e2e-reports.png" alt="TrueTime weekly report view">
+    </a>
+    <figcaption><strong>Reports.</strong> Weekly totals by project, issue, or day.</figcaption>
+  </figure>
+  <figure>
+    <a href="/assets/images/e2e-team-approvals.png" data-pswp-width="1280" data-pswp-height="300">
+      <img src="/assets/images/e2e-team-approvals.png" alt="TrueTime approvals view">
+    </a>
+    <figcaption><strong>Approvals.</strong> Submit a week for approval.</figcaption>
+  </figure>
+  <figure>
+    <a href="/assets/images/e2e-settings.png" data-pswp-width="1280" data-pswp-height="1000">
+      <img src="/assets/images/e2e-settings.png" alt="TrueTime settings view">
+    </a>
+    <figcaption><strong>Admin settings.</strong> About the app, admin settings, feedback.</figcaption>
+  </figure>
+  <figure>
+    <a href="/assets/images/e2e-issue-panel-timer.png" data-pswp-width="645" data-pswp-height="485">
+      <img src="/assets/images/e2e-issue-panel-timer.png" alt="TrueTime timer panel on a Jira issue">
+    </a>
+    <figcaption><strong>Issue timer.</strong> Start timer, log time manually.</figcaption>
+  </figure>
+</div>
+
+<link rel="stylesheet" href="/assets/photoswipe/photoswipe.css">
+<script type="module">
+import PhotoSwipeLightbox from '/assets/photoswipe/photoswipe-lightbox.esm.min.js';
+const lightbox = new PhotoSwipeLightbox({
+  gallery: '#tt-gallery',
+  children: 'a',
+  pswpModule: () => import('/assets/photoswipe/photoswipe.esm.min.js')
+});
+lightbox.init();
+</script>
 
 ## Docs
 

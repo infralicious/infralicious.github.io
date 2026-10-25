@@ -40,6 +40,8 @@ Claude Code reads these through CLAUDE.md (`@AGENTS.md`).
 - Pricing facts come from the Marketplace listing copy only: free to 10 users, $2.99 per user per month above that.
 - Never invent testimonials, reviews, install counts, or screenshots.
 - Keep `llms.txt` in sync when docs change. Regenerate `llms-full.txt` when docs change.
+- Screenshots gallery on `/truetime/` uses vendored PhotoSwipe 5.4.4 in `assets/photoswipe/`. No CDN. No dependencies. Page-local style and module script live in `truetime/index.md`.
+- Presentation-only changes (gallery markup, styles) do not need an `llms-full.txt` regen. Regen it when docs prose changes.
 - Keep `ai.txt` permissive: AI agents may crawl, index, summarize, and train on public pages.
 
 ## Repo settings as code
