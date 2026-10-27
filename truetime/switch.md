@@ -22,4 +22,4 @@ Example: 200 Jira seats, 15 trackers. Tempo costs $1,042 per month. TrueTime cos
 Tempo prices and SLA come from its public Marketplace listing and support pages, checked October 2026.
 Tempo wins on platform range and approval depth. TrueTime wins on price, billing base, and data location.
 
-[Try TrueTime in beta](/beta.html). Read the [migration guide](/truetime/migration.html).
+[Try TrueTime in beta](/truetime/beta.html). Read the [migration guide](/truetime/migration.html).

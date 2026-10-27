@@ -1,15 +1,16 @@
 # Infralicious — full docs
 
-> Generated 2026-10-24 from the site sources. HTML versions live at https://infralicious.com/.
+> Generated 2026-10-27 from the site sources. HTML versions live at https://infralicious.com/.
 > This file goes stale when docs change. Regenerate it then.
 
 ## index.md
+
 
 ## TrueTime for Jira
 
 Forge-native timesheets for Jira. One-click timers, weekly timesheets, approvals, and Tempo migration. Your data never leaves Atlassian.
 
-**Beta:** TrueTime is in beta. Full release is planned for Q4 2026. [Join the beta](/beta.html).
+**Beta:** TrueTime is in beta. Full release is planned for Q4 2026. [Join the beta](/truetime/beta.html).
 
 **Free for up to 10 users.** $2.99 per user per month above that. You pay per person who tracks time, not per Jira seat.
 
@@ -21,6 +22,7 @@ Forge-native timesheets for Jira. One-click timers, weekly timesheets, approvals
 
 ## about.md
 
+
 Infralicious builds small, honest software for teams.
 Our apps run on the platforms you already trust.
 Your data stays where it belongs.
@@ -31,6 +33,7 @@ Use the [contact form](/contact.html). We respond to every message.
 
 ## contact.md
 
+
 Questions, feedback, or a support request? Use the form below.
 We respond to every message.
 We reply within 1 business day. See our [support SLA](/sla.html).
@@ -38,13 +41,16 @@ Want beta access to TrueTime? Say so in your message.
 
 ## sla.md
 
+
 This page states the support service levels for Infralicious apps.
 It covers TrueTime for Jira.
 
 ## Support Channel
 
-Support runs through the [contact form](/contact.html) only.
-We do not offer phone support.
+Support runs through the [contact form](/contact.html).
+Paid-tier customers also get direct phone access.
+We share phone numbers privately with paid-tier customers only.
+We never publish phone numbers on this site.
 
 ## Response Times
 
@@ -77,9 +83,10 @@ This page sets no uptime target for the apps.
 We may update this page.
 The date below states the current version.
 
-Last updated: 2026-10-20.
+Last updated: 2026-10-27.
 
 ## privacy.md
+
 
 # Privacy Policy for Infralicious
 
@@ -152,6 +159,7 @@ For privacy questions or data requests, use the [contact form](/contact.html).
 - [TrueTime for Jira privacy policy](/truetime/privacy.html)
 
 ## terms.md
+
 
 # Terms of Service for Infralicious
 
@@ -228,11 +236,13 @@ Questions about these terms? Use the [contact form](/contact.html).
 
 ## careers.md
 
+
 We have no open roles right now.
 
 Want to work with us one day? Use the [contact form](/contact.html) and introduce yourself.
 
 ## faq.md
+
 
 ## What is TrueTime for Jira?
 
@@ -273,9 +283,10 @@ Paid subscribers get priority. See our [support SLA](/sla.html).
 ## Is TrueTime in beta?
 
 Yes. Features may change. Full release is planned for Q4 2026.
-[Join the beta](/beta.html).
+[Join the beta](/truetime/beta.html).
 
 ## calculator.md
+
 
 Tempo bills per Jira seat. TrueTime bills per person who tracks time.
 Enter your numbers. See the difference.
@@ -292,7 +303,8 @@ Example: 200 seats, 15 trackers. Tempo costs $1,042 per month. TrueTime costs $4
 Note: price above 100 trackers is not set yet. This calculator uses $2.99 for all paid trackers.
 Tempo price comes from its public Marketplace listing, checked October 2026.
 
-## beta.md
+## truetime/beta.md
+
 
 TrueTime is in beta. Full release is planned for Q4 2026.
 
@@ -317,6 +329,7 @@ Beta means features may change. Worklogs stay in your Jira either way.
 
 ## changelog.md
 
+
 Site changes, newest first.
 
 ## 2026
@@ -328,7 +341,8 @@ Site changes, newest first.
 
 ## truetime/index.md
 
-**Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026. [Join the beta](/beta.html).
+
+**Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026. [Join the beta](/truetime/beta.html).
 {: .notice--warning}
 
 TrueTime is a Forge-native timesheet app for Jira.
@@ -350,7 +364,48 @@ TrueTime has no servers.
 
 Product views from our test site, captured by the E2E suite. Click an image to enlarge it.
 
-{% include feature_row %}
+<style>
+.tt-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1em; }
+.tt-gallery figure { margin: 0; }
+.tt-gallery img { width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; }
+.tt-gallery figcaption { font-size: 0.85em; margin-top: 0.25em; }
+</style>
+
+<div class="tt-gallery" id="tt-gallery">
+  <figure>
+    <a href="/assets/images/e2e-timesheet-grid.png" data-pswp-width="1280" data-pswp-height="1000">
+      <img src="/assets/images/e2e-timesheet-grid.png" alt="TrueTime weekly timesheet grid">
+    </a>
+    <figcaption><strong>Weekly timesheet.</strong> Week grid, day totals, manual entry.</figcaption>
+  </figure>
+  <figure>
+    <a href="/assets/images/e2e-reports.png" data-pswp-width="1280" data-pswp-height="1000">
+      <img src="/assets/images/e2e-reports.png" alt="TrueTime weekly report view">
+    </a>
+    <figcaption><strong>Reports.</strong> Weekly totals by project, issue, or day.</figcaption>
+  </figure>
+  <figure>
+    <a href="/assets/images/e2e-team-approvals.png" data-pswp-width="1280" data-pswp-height="300">
+      <img src="/assets/images/e2e-team-approvals.png" alt="TrueTime approvals view">
+    </a>
+    <figcaption><strong>Approvals.</strong> Submit a week for approval.</figcaption>
+  </figure>
+  <figure>
+    <a href="/assets/images/e2e-settings.png" data-pswp-width="1280" data-pswp-height="1000">
+      <img src="/assets/images/e2e-settings.png" alt="TrueTime settings view">
+    </a>
+    <figcaption><strong>Admin settings.</strong> About the app, admin settings, feedback.</figcaption>
+  </figure>
+  <figure>
+    <a href="/assets/images/e2e-issue-panel-timer.png" data-pswp-width="645" data-pswp-height="485">
+      <img src="/assets/images/e2e-issue-panel-timer.png" alt="TrueTime timer panel on a Jira issue">
+    </a>
+    <figcaption><strong>Issue timer.</strong> Start timer, log time manually.</figcaption>
+  </figure>
+</div>
+
+<link rel="stylesheet" href="/assets/photoswipe/photoswipe.css">
+
 
 ## Docs
 
@@ -363,7 +418,7 @@ Product views from our test site, captured by the E2E suite. Click an image to e
 - [FAQ](/faq.html) — Costs, data location, migration, uninstall, support.
 - [Why switch from Tempo](/truetime/switch.html) — Price and feature comparison.
 - [Savings Calculator](/calculator.html) — Compare Tempo and TrueTime costs.
-- [Join the beta](/beta.html) — Early access and feedback.
+- [Join the beta](/truetime/beta.html) — Early access and feedback.
 
 ## Support
 
@@ -371,6 +426,7 @@ Use the [contact form](/contact.html).
 We respond to every message.
 
 ## truetime/user-guide.md
+
 
 **Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026.
 {: .notice--warning}
@@ -410,6 +466,16 @@ Enter time manually in the timesheet view.
 3. Use **Prev** and **Next** to change weeks.
 4. Edit or delete an entry from the grid.
 
+### Draft my week
+
+Use **Draft my week** on the My Time tab.
+The app drafts entries from recent tickets.
+The app drafts entries from work you touched but did not time.
+The app drafts entries for empty days.
+Nothing saves until you confirm.
+Review each draft first.
+Edit or discard a draft before you save it.
+
 ### Timesheet tips
 
 - **Keyboard shortcuts**: `←` / `→` switch weeks, `N` starts a new entry.
@@ -444,10 +510,26 @@ Approvers manage the queue in the **Approvals** tab.
 ## Teams
 
 - Create a team with a name and members.
+- Add members one by one, or import members from a Jira group.
+- Roles are Team Lead and Member. Custom roles are possible.
 - Team leads manage members and settings.
+- Team leads can view team worklogs.
 - Team leads can approve team members' timesheets.
+- Team leads can manage team worklogs.
+- Team leads can view a team week.
 - Only team leads or the team creator can delete a team.
 - Deleted teams go to trash for 30 days. Restore a team from the Deleted teams section. After 30 days, the team is gone for good.
+
+### Import members from a Jira group
+
+1. Open the team.
+2. Search for a Jira group by name.
+3. Import the group members into the team.
+4. The import copies current members as individuals.
+5. The app stores no link to the Jira group.
+6. Later Jira group changes do not change the team.
+7. Check member roles after import.
+8. Set Team Lead roles as needed.
 
 ## Admin settings
 
@@ -496,6 +578,7 @@ Open settings from **Atlassian Administration → Apps → TrueTime → Configur
 1. Click the **Report** tab.
 2. The tab shows hours grouped by project.
 3. Click **Download Excel (.xlsx)** for a spreadsheet.
+4. Click **Download CSV** for a plain-text export. Excel, Google Sheets, and Apple Numbers can read CSV files.
 
 ## FAQ
 
@@ -515,7 +598,15 @@ Jira requires a minimum of 60 seconds for worklogs. The app rounds up shorter ti
 
 Your Jira admin configures approvers. Ask your admin if you are not sure.
 
+**Can I use TrueTime on a phone?**
+
+TrueTime does not appear in the native Jira mobile app.
+Forge issue panels and global pages have no mobile route.
+Use a desktop browser for TrueTime.
+We do not promise a mobile workaround yet.
+
 ## truetime/migration.md
+
 
 **Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026.
 {: .notice--warning}
@@ -557,6 +648,7 @@ Example row: `2026-10-05, PROJ-123, 2.5, Sprint work`.
 - Keep your Tempo CSV file until you confirm the import looks right.
 
 ## truetime/api.md
+
 
 **Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026.
 {: .notice--warning}
@@ -643,6 +735,7 @@ Use the Team tab in the TrueTime page for those steps.
 
 ## truetime/support.md
 
+
 **Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026.
 {: .notice--warning}
 
@@ -676,6 +769,7 @@ Need a feature? Tell us what you want and why.
 Your feedback shapes the roadmap.
 
 ## truetime/privacy.md
+
 
 # Privacy Policy for TrueTime for Jira
 
@@ -750,6 +844,7 @@ Messages sent through the contact form pass through Google Forms before they rea
 This page alone states the full policy for TrueTime.
 
 ## truetime/terms.md
+
 
 # Terms of Service for TrueTime for Jira
 
@@ -837,6 +932,7 @@ This page alone states the full terms for TrueTime.
 
 ## truetime/switch.md
 
+
 Tempo is the big timesheet app for Jira. TrueTime is the Forge-native alternative.
 This page compares the two on facts that matter to buyers.
 
@@ -856,4 +952,4 @@ Example: 200 Jira seats, 15 trackers. Tempo costs $1,042 per month. TrueTime cos
 Tempo prices and SLA come from its public Marketplace listing and support pages, checked October 2026.
 Tempo wins on platform range and approval depth. TrueTime wins on price, billing base, and data location.
 
-[Try TrueTime in beta](/beta.html). Read the [migration guide](/truetime/migration.html).
+[Try TrueTime in beta](/truetime/beta.html). Read the [migration guide](/truetime/migration.html).

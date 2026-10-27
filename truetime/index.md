@@ -3,7 +3,7 @@ layout: single
 title: TrueTime
 ---
 
-**Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026. [Join the beta](/beta.html).
+**Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026. [Join the beta](/truetime/beta.html).
 {: .notice--warning}
 
 TrueTime is a Forge-native timesheet app for Jira.
@@ -87,7 +87,7 @@ lightbox.init();
 - [FAQ](/faq.html) — Costs, data location, migration, uninstall, support.
 - [Why switch from Tempo](/truetime/switch.html) — Price and feature comparison.
 - [Savings Calculator](/calculator.html) — Compare Tempo and TrueTime costs.
-- [Join the beta](/beta.html) — Early access and feedback.
+- [Join the beta](/truetime/beta.html) — Early access and feedback.
 
 ## Support
 

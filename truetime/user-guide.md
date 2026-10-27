@@ -41,6 +41,16 @@ Enter time manually in the timesheet view.
 3. Use **Prev** and **Next** to change weeks.
 4. Edit or delete an entry from the grid.
 
+### Draft my week
+
+Use **Draft my week** on the My Time tab.
+The app drafts entries from recent tickets.
+The app drafts entries from work you touched but did not time.
+The app drafts entries for empty days.
+Nothing saves until you confirm.
+Review each draft first.
+Edit or discard a draft before you save it.
+
 ### Timesheet tips
 
 - **Keyboard shortcuts**: `←` / `→` switch weeks, `N` starts a new entry.
@@ -75,10 +85,26 @@ Approvers manage the queue in the **Approvals** tab.
 ## Teams
 
 - Create a team with a name and members.
+- Add members one by one, or import members from a Jira group.
+- Roles are Team Lead and Member. Custom roles are possible.
 - Team leads manage members and settings.
+- Team leads can view team worklogs.
 - Team leads can approve team members' timesheets.
+- Team leads can manage team worklogs.
+- Team leads can view a team week.
 - Only team leads or the team creator can delete a team.
 - Deleted teams go to trash for 30 days. Restore a team from the Deleted teams section. After 30 days, the team is gone for good.
+
+### Import members from a Jira group
+
+1. Open the team.
+2. Search for a Jira group by name.
+3. Import the group members into the team.
+4. The import copies current members as individuals.
+5. The app stores no link to the Jira group.
+6. Later Jira group changes do not change the team.
+7. Check member roles after import.
+8. Set Team Lead roles as needed.
 
 ## Admin settings
 
@@ -127,6 +153,7 @@ Open settings from **Atlassian Administration → Apps → TrueTime → Configur
 1. Click the **Report** tab.
 2. The tab shows hours grouped by project.
 3. Click **Download Excel (.xlsx)** for a spreadsheet.
+4. Click **Download CSV** for a plain-text export. Excel, Google Sheets, and Apple Numbers can read CSV files.
 
 ## FAQ
 
@@ -145,3 +172,10 @@ Jira requires a minimum of 60 seconds for worklogs. The app rounds up shorter ti
 **Who approves my week?**
 
 Your Jira admin configures approvers. Ask your admin if you are not sure.
+
+**Can I use TrueTime on a phone?**
+
+TrueTime does not appear in the native Jira mobile app.
+Forge issue panels and global pages have no mobile route.
+Use a desktop browser for TrueTime.
+We do not promise a mobile workaround yet.

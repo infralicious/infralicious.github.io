@@ -42,7 +42,7 @@ Paid subscribers get priority. See our [support SLA](/sla.html).
 ## Is TrueTime in beta?
 
 Yes. Features may change. Full release is planned for Q4 2026.
-[Join the beta](/beta.html).
+[Join the beta](/truetime/beta.html).
 
 <script type="application/ld+json">
 {

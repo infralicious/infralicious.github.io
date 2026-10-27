@@ -8,8 +8,10 @@ It covers TrueTime for Jira.
 
 ## Support Channel
 
-Support runs through the [contact form](/contact.html) only.
-We do not offer phone support.
+Support runs through the [contact form](/contact.html).
+Paid-tier customers also get direct phone access.
+We share phone numbers privately with paid-tier customers only.
+We never publish phone numbers on this site.
 
 ## Response Times
 
@@ -42,4 +44,4 @@ This page sets no uptime target for the apps.
 We may update this page.
 The date below states the current version.
 
-Last updated: 2026-10-20.
+Last updated: 2026-10-27.
