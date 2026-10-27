@@ -8,7 +8,7 @@ title: Terms of Service
 This document covers TrueTime for Jira by Infralicious.
 
 **Effective date:** October 11, 2026
-**Last updated:** 2026-10-18
+**Last updated:** 2026-10-27
 
 These terms govern your use of TrueTime for Jira ("TrueTime"), built by
 Infralicious ("we", "us"). Contact: use the [contact form](/contact.html).
