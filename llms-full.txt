@@ -866,7 +866,7 @@ subscription tier.
 
 **Free tier:** Up to 10 users, full features, no time limit.
 
-**Paid tier:** ~$2.99 per user per month (11-100 users).
+**Paid tier:** USD 2.99 per user per month for all tiers above 10 users.
 Billed via Atlassian Marketplace.
 
 **Trial:** 30-day free trial of paid features. No credit card required.
