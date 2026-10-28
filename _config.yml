@@ -18,7 +18,7 @@ include:
 breadcrumbs: true
 search: true
 atom_feed:
-  hide: true
+  hide: false
 locale: "en"
 
 author:
