@@ -9,6 +9,7 @@ minimal_mistakes_skin: "default"
 plugins:
   - jekyll-include-cache
   - jekyll-sitemap
+  - jekyll-feed
 
 # Jekyll skips dot-directories by default. Include .well-known
 # so the security.txt file below ships to the live site.
