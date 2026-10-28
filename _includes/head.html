@@ -58,8 +58,9 @@
   }
 })();
 </script>
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+{% comment %} FontAwesome 6.7.2, vendored. No CDN load. {% endcomment %}
+<link rel="preload" href="{{ '/assets/fontawesome/css/all.min.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ '/assets/fontawesome/css/all.min.css' | relative_url }}"></noscript>
 
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}
