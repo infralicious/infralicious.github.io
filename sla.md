@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Support SLA
+description: "Support hours, response targets, and channels for Infralicious apps."
 ---
 
 This page states the support service levels for Infralicious apps.

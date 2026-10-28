@@ -1,6 +1,7 @@
 ---
 layout: single
 title: TrueTime
+description: "Forge-native timesheets for Jira. Timers, weekly timesheets, approvals, and Tempo import."
 ---
 
 **Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026. [Join the beta](/truetime/beta.html).

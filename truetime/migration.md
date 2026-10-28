@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Migrate from Tempo
+description: "Move Tempo worklogs into TrueTime with a CSV export."
 ---
 
 **Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026.

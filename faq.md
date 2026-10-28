@@ -1,6 +1,7 @@
 ---
 layout: single
 title: FAQ
+description: "Answers on TrueTime cost, data location, migration, uninstall, and support."
 ---
 
 ## What is TrueTime for Jira?

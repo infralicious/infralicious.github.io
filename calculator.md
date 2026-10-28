@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Savings Calculator
+description: "Compare Tempo and TrueTime costs by Jira site size."
 toc: false
 ---
 

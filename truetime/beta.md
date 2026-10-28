@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Join the beta
+description: "Join the TrueTime beta. Early access and feedback."
 toc: false
 ---
 

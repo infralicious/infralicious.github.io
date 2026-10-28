@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Log time with the Jira REST API
+description: "Create time entries with the Jira REST API."
 ---
 
 **Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026.

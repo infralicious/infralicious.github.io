@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Contact
+description: "Contact Infralicious through the form. We reply within 1 business day."
 toc: false
 ---
 

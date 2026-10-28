@@ -1,6 +1,7 @@
 ---
 layout: single
 title: About
+description: "Infralicious builds small, honest software for teams."
 toc: false
 ---
 

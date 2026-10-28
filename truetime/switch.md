@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Why switch from Tempo
+description: "Compare TrueTime and Tempo on price, data location, and features."
 ---
 
 Tempo is the big timesheet app for Jira. TrueTime is the Forge-native alternative.

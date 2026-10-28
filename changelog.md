@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Changelog
+description: "Site changes, newest first."
 ---
 
 Site changes, newest first.

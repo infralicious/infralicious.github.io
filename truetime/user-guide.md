@@ -1,6 +1,7 @@
 ---
 layout: single
 title: User Guide
+description: "Log time, approve weeks, manage teams, and set admin options."
 ---
 
 **Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026.

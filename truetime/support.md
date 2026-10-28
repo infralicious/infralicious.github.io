@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Support
+description: "Get help with TrueTime through the contact form."
 ---
 
 **Beta:** TrueTime is in beta. Features may change. Full release is planned for Q4 2026.
