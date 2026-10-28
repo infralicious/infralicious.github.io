@@ -5,7 +5,7 @@ title: Terms of Service
 
 # Terms of Service for Infralicious
 
-**Last updated:** 2026-10-18
+**Last updated:** 2026-10-27
 
 These terms govern your use of apps built by Infralicious ("we", "us").
 Contact: use the [contact form](/contact.html).
@@ -36,7 +36,8 @@ Data stored in the host platform remains.
 ## 4. Service Availability
 
 Our apps run on their host platforms.
-We target 99.9% uptime but do not guarantee uninterrupted service.
+We target 99.9% uptime. That target is not a guarantee.
+The SLA sets no contractual uptime commitment.
 Host platform outages are outside our control.
 
 ## 5. Limitation of Liability

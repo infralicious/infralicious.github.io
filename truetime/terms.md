@@ -47,9 +47,9 @@ After uninstall, app preferences are deleted. Jira worklogs remain.
 
 ## 5. Service Availability
 
-TrueTime runs on Atlassian's Forge platform. We target 99.9% uptime but
-do not guarantee uninterrupted service. Atlassian platform outages are
-outside our control.
+TrueTime runs on Atlassian's Forge platform. We target 99.9% uptime.
+That target is not a guarantee. The SLA sets no contractual uptime
+commitment. Atlassian platform outages are outside our control.
 
 ## 6. Limitation of Liability
 

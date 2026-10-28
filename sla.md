@@ -37,7 +37,8 @@ Support is best effort during beta.
 
 Infralicious apps run on Atlassian Forge.
 Atlassian operates the platform and its availability.
-This page sets no uptime target for the apps.
+We target 99.9% uptime. That target is not a guarantee.
+This page sets no contractual uptime commitment.
 
 ## Changes
 
