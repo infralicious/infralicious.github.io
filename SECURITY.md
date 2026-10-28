@@ -14,3 +14,11 @@ For TrueTime for Jira, use the same contact form.
 ## Response
 
 We reply within 1 business day, per our [support SLA](https://infralicious.com/sla.html).
+
+## Hosting limits
+
+GitHub Pages hosts this site.
+GitHub Pages provides no custom security headers.
+This site claims no Content Security Policy.
+This site claims no custom HSTS or frame policy.
+We revisit this limit if hosting ever moves off Pages.
