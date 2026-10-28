@@ -24,7 +24,7 @@ Forge-native timesheets for Jira. One-click timers, weekly timesheets, approvals
 
 **Beta:** TrueTime is in beta. Full release is planned for Q4 2026. [Join the beta](/truetime/beta.html).
 
-**Free for up to 10 users.** $2.99 per user per month above that. You pay per person who tracks time, not per Jira seat.
+**Free for up to 10 users.** $2.99 per user per month above that. Marketplace bills per Jira site user.
 
 [Explore TrueTime](/truetime/){: .btn .btn--primary}
 
