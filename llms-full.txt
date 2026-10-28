@@ -39,6 +39,16 @@ We respond to every message.
 We reply within 1 business day. See our [support SLA](/sla.html).
 Want beta access to TrueTime? Say so in your message.
 
+<style>
+.contact-form-wrap { max-width: 100%; overflow: hidden; }
+.contact-form-wrap iframe { width: 100%; max-width: 640px; height: 688px; border: 0; }
+</style>
+<div class="contact-form-wrap">
+
+</div>
+
+If the form does not load, open it directly: [contact form](https://docs.google.com/forms/d/e/1FAIpQLSejGF_i8ZTAWh9Te96h1ooheUv-gSvBXeovm4mLdVU0WpD1JA/viewform).
+
 ## sla.md
 
 
@@ -76,7 +86,8 @@ Support is best effort during beta.
 
 Infralicious apps run on Atlassian Forge.
 Atlassian operates the platform and its availability.
-This page sets no uptime target for the apps.
+We target 99.9% uptime. That target is not a guarantee.
+This page sets no contractual uptime commitment.
 
 ## Changes
 
@@ -163,7 +174,7 @@ For privacy questions or data requests, use the [contact form](/contact.html).
 
 # Terms of Service for Infralicious
 
-**Last updated:** 2026-10-18
+**Last updated:** 2026-10-27
 
 These terms govern your use of apps built by Infralicious ("we", "us").
 Contact: use the [contact form](/contact.html).
@@ -194,7 +205,8 @@ Data stored in the host platform remains.
 ## 4. Service Availability
 
 Our apps run on their host platforms.
-We target 99.9% uptime but do not guarantee uninterrupted service.
+We target 99.9% uptime. That target is not a guarantee.
+The SLA sets no contractual uptime commitment.
 Host platform outages are outside our control.
 
 ## 5. Limitation of Liability
@@ -334,7 +346,8 @@ Site changes, newest first.
 
 ## 2026
 
-- 2026-10-21: AI files (ai.txt, llms.txt, markdown preference), Scorecard badge, pinned actions, Renovate, MIT license.
+- 2026-10-27: Audit fixes. Pricing now bills per Jira site user. Footer Beta link fixed. FontAwesome 6.7.2 vendored. Contact form made responsive. Weekly external link check added. Uptime wording aligned. Blog posts added. Feed enabled. Share image added.
+- 2026-10-27: SLA phone wording for paid tiers. Doc gaps filled. Beta page moved to /truetime/beta.html. TrueTime terms tier fixed to all tiers above 10 users. TrueTime terms date updated.
 - 2026-10-20: Custom domain live, HTTPS enforced, SLA page, contact form, beta notices, settings as code, Feed link hidden, dark and light theme toggle.
 - 2026-10-19: Minimal Mistakes theme, new landing page.
 - 2026-10-18: Docs site launch in this repo.
@@ -353,7 +366,7 @@ TrueTime has no servers.
 
 - **One-click timers.** Open a Jira issue. Click Start. Click Stop. The app creates a native Jira worklog.
 - **Weekly timesheets.** See your week at a glance. Log time manually. Edit entries. Delete mistakes.
-- **Simple approvals.** Submit your week with one click. Your manager approves or rejects.
+- **One-click approvals.** Submit your week with one click. Your manager approves or rejects.
 - **Billable tracking.** Mark time as billable or non-billable. The flag stays in Jira. It survives uninstall.
 - **Excel export.** One click. Real .xlsx file. Includes hours, billable flags, project totals.
 - **Tempo import via CSV.** Export Tempo data to CSV. Upload it into TrueTime. Your history moves with you.
@@ -890,9 +903,9 @@ After uninstall, app preferences are deleted. Jira worklogs remain.
 
 ## 5. Service Availability
 
-TrueTime runs on Atlassian's Forge platform. We target 99.9% uptime but
-do not guarantee uninterrupted service. Atlassian platform outages are
-outside our control.
+TrueTime runs on Atlassian's Forge platform. We target 99.9% uptime.
+That target is not a guarantee. The SLA sets no contractual uptime
+commitment. Atlassian platform outages are outside our control.
 
 ## 6. Limitation of Liability
 
