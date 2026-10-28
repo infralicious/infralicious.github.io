@@ -14,7 +14,7 @@ TrueTime has no servers.
 
 - **One-click timers.** Open a Jira issue. Click Start. Click Stop. The app creates a native Jira worklog.
 - **Weekly timesheets.** See your week at a glance. Log time manually. Edit entries. Delete mistakes.
-- **Simple approvals.** Submit your week with one click. Your manager approves or rejects.
+- **One-click approvals.** Submit your week with one click. Your manager approves or rejects.
 - **Billable tracking.** Mark time as billable or non-billable. The flag stays in Jira. It survives uninstall.
 - **Excel export.** One click. Real .xlsx file. Includes hours, billable flags, project totals.
 - **Tempo import via CSV.** Export Tempo data to CSV. Upload it into TrueTime. Your history moves with you.
