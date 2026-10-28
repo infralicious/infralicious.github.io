@@ -2,6 +2,7 @@
 layout: single
 title: "Migrate from Tempo with a CSV export"
 date: 2026-10-27
+permalink: /migrate-from-tempo.html
 excerpt: "Move Tempo worklogs into TrueTime with a CSV file. No Tempo token is needed."
 ---
 

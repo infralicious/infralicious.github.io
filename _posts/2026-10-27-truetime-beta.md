@@ -2,6 +2,7 @@
 layout: single
 title: "TrueTime beta is open"
 date: 2026-10-27
+permalink: /truetime-beta.html
 excerpt: "TrueTime for Jira is in beta. Join through the contact form."
 ---
 
