@@ -41,6 +41,8 @@ footer:
       url: "/sla.html"
     - label: "Changelog"
       url: "/changelog.html"
+    - label: "Blog"
+      url: "/blog/"
 
 defaults:
   - scope:
