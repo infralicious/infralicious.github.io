@@ -3,6 +3,8 @@ main:
     url: /truetime/
   - title: "Docs"
     url: /truetime/user-guide.html
+  - title: "Blog"
+    url: /blog/
   - title: "About"
     url: /about.html
   - title: "Contact"

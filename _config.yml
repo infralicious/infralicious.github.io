@@ -18,6 +18,12 @@ include:
 
 breadcrumbs: true
 search: true
+# Minimal Mistakes Lunr search covers posts only by default.
+# Pages were missing from results, so a search for "beta"
+# returned only the beta post, not the beta page or docs.
+search_full_content: true
+lunr:
+  search_within_pages: true
 atom_feed:
   hide: false
 locale: "en"
@@ -41,6 +47,8 @@ footer:
       url: "/sla.html"
     - label: "Changelog"
       url: "/changelog.html"
+    - label: "Blog"
+      url: "/blog/"
 
 defaults:
   - scope:

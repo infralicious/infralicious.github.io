@@ -31,4 +31,5 @@
 - [Savings Calculator](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/calculator.md): Compare Tempo and TrueTime costs.
 - [Join the beta](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/truetime/beta.md): Early access and feedback.
 - [Changelog](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/changelog.md): Site changes, newest first.
+- [Blog](https://raw.githubusercontent.com/infralicious/infralicious.github.io/main/blog.md): News, newest first. One short post per release.
 - [Full docs, one file](https://infralicious.com/llms-full.txt): Every doc page in one markdown file.
