@@ -37,6 +37,7 @@ Claude Code reads these through CLAUDE.md (`@AGENTS.md`).
 - `support@infralicious.com` is vendor-profile data only. It never appears on the site.
 - Privacy and terms pattern: root holds generic company versions. Each app folder holds complete self-contained versions.
 - Beta notices stay on TrueTime pages until the full release ships.
+- Release-notes habit: publish one short post per release. Keep each post in ASD-STE100.
 - Pricing facts come from the Marketplace listing copy only: free to 10 users, $2.99 per user per month above that.
 - Never invent testimonials, reviews, install counts, or screenshots.
 - Keep `llms.txt` in sync when docs change. Regenerate `llms-full.txt` when docs change.
