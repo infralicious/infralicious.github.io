@@ -8,6 +8,7 @@ Site changes, newest first.
 
 ## 2026
 
+- 2026-11-02: AGENTS.md and CLAUDE.md get sitemap and search flags set to false, as a second mechanism. Exclude alone did not remove the pages live. Live verification is still required. Do not treat the pages as 404 until that check proves it.
 - 2026-11-02: AGENTS.md and CLAUDE.md excluded from the site build. They stay in the repo for agents. They no longer render as pages. They no longer appear in the sitemap or in search. Agent docs corrected for the Protect main pull request ruleset.
 - 2026-10-30: Blog index page added and linked from navigation and footer. Search now covers pages, not posts only. Release-notes habit documented.
 - 2026-10-27: Audit fixes. Pricing now bills per Jira site user. Footer Beta link fixed. FontAwesome 6.7.2 vendored. Contact form made responsive. Weekly external link check added. Uptime wording aligned. Blog posts added. Feed enabled. Share image added.

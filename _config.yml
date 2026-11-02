@@ -75,3 +75,18 @@ defaults:
       author_profile: false
       toc: true
       toc_sticky: true
+  # Second mechanism for agent docs, in addition to exclude above.
+  # Exclude alone did not remove AGENTS.html and CLAUDE.html live.
+  # These path-specific defaults are more specific than pages defaults.
+  # They set sitemap and search flags to false for these files only.
+  # SECURITY.md is not listed here. It is public policy. Keep it.
+  - scope:
+      path: "AGENTS.md"
+    values:
+      sitemap: false
+      search: false
+  - scope:
+      path: "CLAUDE.md"
+    values:
+      sitemap: false
+      search: false
