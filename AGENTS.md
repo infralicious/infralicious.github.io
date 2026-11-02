@@ -27,8 +27,9 @@ Claude Code reads these through CLAUDE.md (`@AGENTS.md`).
 ## Commits and pushes
 
 - Sign every commit (SSH signing is configured repo-local).
-- Push to main deploys the live site at once. Confirm before pushing, unless the user has told you to push freely.
-- Push pattern: `git -c credential.helper='!gh auth git-credential' push origin main`.
+- Land changes through a pull request. Direct push to main is blocked by the Protect main ruleset.
+- The ruleset requires the htmlproofer check. The ruleset allows squash merge only.
+- Push pattern for branches: `git -c credential.helper='!gh auth git-credential' push -u origin <branch>`.
 - Small, topical commits. One change per commit.
 
 ## Content rules
@@ -44,11 +45,12 @@ Claude Code reads these through CLAUDE.md (`@AGENTS.md`).
 - Screenshots gallery on `/truetime/` uses vendored PhotoSwipe 5.4.4 in `assets/photoswipe/`. No CDN. No dependencies. Page-local style and module script live in `truetime/index.md`.
 - Presentation-only changes (gallery markup, styles) do not need an `llms-full.txt` regen. Regen it when docs prose changes.
 - Keep `ai.txt` permissive: AI agents may crawl, index, summarize, and train on public pages.
+- `AGENTS.md` and `CLAUDE.md` stay in the repo for agents. They are excluded from the Jekyll build. They never render as site pages. They never appear in the sitemap or in search.
 
 ## Repo settings as code
 
-- `.github/settings.yml` is enforced by the Settings app. Change settings in that file, not in the GitHub UI.
-- Main branch protection is on: no force push, no deletion. Direct pushes still work.
+- Settings are managed by safe-settings from the admin repo. Do not edit settings in the GitHub UI.
+- Protect main ruleset is on: pull request required, htmlproofer check required, squash merge only, no force push, no deletion.
 - Renovate owns dependency updates (`renovate.json`, best-practices preset). Dependabot is off.
 
 ## Well-known files

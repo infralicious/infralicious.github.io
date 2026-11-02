@@ -8,6 +8,7 @@ Site changes, newest first.
 
 ## 2026
 
+- 2026-11-02: AGENTS.md and CLAUDE.md excluded from the site build. They stay in the repo for agents. They no longer render as pages. They no longer appear in the sitemap or in search. Agent docs corrected for the Protect main pull request ruleset.
 - 2026-10-30: Blog index page added and linked from navigation and footer. Search now covers pages, not posts only. Release-notes habit documented.
 - 2026-10-27: Audit fixes. Pricing now bills per Jira site user. Footer Beta link fixed. FontAwesome 6.7.2 vendored. Contact form made responsive. Weekly external link check added. Uptime wording aligned. Blog posts added. Feed enabled. Share image added.
 - 2026-10-27: SLA phone wording for paid tiers. Doc gaps filled. Beta page moved to /truetime/beta.html. TrueTime terms tier fixed to all tiers above 10 users. TrueTime terms date updated.
