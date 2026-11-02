@@ -53,6 +53,26 @@ Claude Code reads these through CLAUDE.md (`@AGENTS.md`).
 - Protect main ruleset is on: pull request required, htmlproofer check required, squash merge only, no force push, no deletion.
 - Renovate owns dependency updates (`renovate.json`, best-practices preset). Dependabot is off.
 
+## Best practices we follow
+
+- Baseline is the OWASP Cheat Sheet Series. Check the relevant sheet before you decide.
+- XSS prevention is followed. The calculator uses `textContent`, not `innerHTML`. No user HTML is rendered. No `eval` or `document.write` is used.
+- Transport protection is followed, with limits. The custom domain uses Pages Enforce HTTPS. The site collects no passwords, cards, or PII itself.
+- Secrets management is followed. No real secret lives in the repo. Only a placeholder token appears in `truetime/api.md`, with guidance to keep tokens secret.
+- Dependency management is partial. Actions are SHA-pinned. Renovate owns updates. The theme is pinned at 4.28.1. The Gemfile is unpinned, with no lockfile. See issue 18.
+- Input validation is followed, with limits. The calculator parses numbers with `parseInt` and a minimum of 1. All other input goes through Google Forms.
+- Third-party JavaScript is followed, with limits. PhotoSwipe 5.4.4 and FontAwesome 6.7.2 are vendored. No CDN is used. Google Forms is the only third-party load, with a fallback link.
+- Content Security Policy and frame policy are gaps, with limits. Pages cannot set custom headers. `SECURITY.md` documents this limit. Do not move hosting for this alone.
+- Error handling is followed. The 404 page is generic. No stack trace is shown. `AGENTS.md` and `CLAUDE.md` are excluded from the build, sitemap, and search.
+- OWASP Top 10 factors that apply are followed or partial, as above. Access control, auth failures, SSRF, and app logging are not applicable. The site has no login, no server input, and no app logs.
+- Software integrity is followed, with limits. Commits are signed. Actions are SHA-pinned. Pull requests and the htmlproofer check are required. Squash merge is the only merge method. Do not add an SBOM for this static site.
+- 12-Factor factors that apply are followed or partial, as above. Codebase, config, and build, release, and run are followed. Dependencies and dev and prod parity are partial. Port binding, processes, concurrency, disposability, app logs, and admin processes are not applicable. The site is static, with no server and no state.
+- OpenSSF Scorecard is followed, with limits. Pinned dependencies, Renovate, MIT licence, minimal tokens, and branch protection are in place. Score was 6.7 on 2026-10-21. SAST, CII Best Practices, and Fuzzing are structural zeros. Do not chase them to 10.
+- WCAG accessibility is followed, with limits. Gallery images have alt text. The contact iframe has a title and a fallback link. Navigation has aria labels. Controls are real buttons. Contrast, heading order, and focus have no automated check. See issue 19 for the check and issue 22 for the skip link.
+- Privacy is followed, with limits. The site has no analytics, no tracking pixels, and no advertising cookies. No email is published. The site collects nothing itself. Google Forms is the only third-party, and it is disclosed. The theme preference uses localStorage, not a cookie, and it is not tracking. See issue 21 for the privacy line.
+- The site threat model is not documented yet. See issue 20.
+- Do not create issues for non-applicable items. That list includes port binding, processes, concurrency, disposability, admin processes, app logging, SBOM, auth hardening, SSRF, fuzzing, CII badge, SLSA, and chasing Scorecard structural zeros to 10.
+
 ## Well-known files
 
 - `robots.txt`, `sitemap.xml` (jekyll-sitemap plugin), `security.txt` (root and `.well-known/`), `humans.txt`, `ai.txt`, `llms.txt`, `llms-full.txt`.
