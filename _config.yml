@@ -16,6 +16,22 @@ plugins:
 include:
   - .well-known
 
+# AGENTS.md and CLAUDE.md stay in the repo for agents.
+# They are not site pages for end users.
+# Exclude them from the build, the sitemap, and search.
+# Keep the Jekyll default excludes too, so an explicit
+# list does not undo them on GitHub Pages Jekyll 3.
+exclude:
+  - AGENTS.md
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
 breadcrumbs: true
 search: true
 # Minimal Mistakes Lunr search covers posts only by default.
